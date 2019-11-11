@@ -1,4 +1,4 @@
-ex <- readLines("template_Age.txt") # the template
+ex <- readLines("2_template_Age.txt") # the template
 data <- read.csv("data.csv") # the csv file with the Age data (Age and age are different here)
 
 for (i in 2:nrow(data)){

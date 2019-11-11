@@ -1,0 +1,111 @@
+﻿Region,AgeName,Top (Ma),Bottom (Ma),broader (Epoch),broaderTransitive (Period),broaderTransitive (Era),broaderTransitive (Eon)
+West Europe ,Saxonian,260.34,272.3,,,,Phanerozoic
+West Europe ,diachronous boundary,272.3,286.03,,,,Phanerozoic
+West Europe ,Autunian,286.03,302.15,,,,Phanerozoic
+West Europe ,Stephanian,302.15,307.22,,,,Phanerozoic
+West Europe ,Westphalian,307.22,318.65,,,,Phanerozoic
+West Europe ,Namurian,318.65,329.06,,,,Phanerozoic
+West Europe ,Visean,329.06,346.73,,,,Phanerozoic
+West Europe ,Tournaisian,346.73,358.94,,,,Phanerozoic
+West Europe ,Hirnantian,443.83,445.23,,,,Phanerozoic
+West Europe ,Rawtheyan,445.23,447.02,,,,Phanerozoic
+West Europe ,Cautleyan,447.02,447.86,,,,Phanerozoic
+West Europe ,Pusgillian,447.86,448.84,,,,Phanerozoic
+West Europe ,Streffordian,448.84,451.28,,,,Phanerozoic
+West Europe ,Cheneyan,451.28,452.73,,,,Phanerozoic
+West Europe ,Burrellian,452.73,456.34,,,,Phanerozoic
+West Europe ,Aurelucian,456.34,458.36,,,,Phanerozoic
+West Europe ,Llandeilian,458.36,460.45,,,,Phanerozoic
+West Europe ,Abereiddian,460.45,465.32,,,,Phanerozoic
+West Europe ,Fennian,465.32,469.96,,,,Phanerozoic
+West Europe ,Whitlandian,469.96,473.12,,,,Phanerozoic
+West Europe ,Moridunian,473.12,477.72,,,,Phanerozoic
+West Europe ,Migneintian,477.72,481.55,,,,Phanerozoic
+West Europe ,Cressagian,481.55,485.37,,,,Phanerozoic
+British,Valanginian,137.27,139.27,,,,Phanerozoic
+British,Ryazanian,139.27,144.1,,,,Phanerozoic
+British,Portlandian,144.1,147.93,,,,Phanerozoic
+British,Kimmeridgian,147.93,157.25,,,,Phanerozoic
+British,Oxfordian,157.25,163.06,,,,Phanerozoic
+Baltoscania,Ohesaare,419.2,422.13,,,,Phanerozoic
+Baltoscania,Kaugetuma,422.13,422.96,,,,Phanerozoic
+Baltoscania,Kuressaare,422.96,423.32,,,,Phanerozoic
+Baltoscania,Paadla,423.32,427.36,,,,Phanerozoic
+Baltoscania,Rootsikula,427.36,428.49,,,,Phanerozoic
+Baltoscania,Jaagarahu,428.49,431.41,,,,Phanerozoic
+Baltoscania,Jaani,431.41,433.46,,,,Phanerozoic
+Baltoscania,Adavere,433.46,438.76,,,,Phanerozoic
+Baltoscania,Raikkula,438.76,441.57,,,,Phanerozoic
+Baltoscania,Juuru,441.57,443.83,,,,Phanerozoic
+Baltoscania,Porkuni,443.83,445.16,,,,Phanerozoic
+Baltoscania,Pirgu,445.16,448.38,,,,Phanerozoic
+Baltoscania,Vormsi,448.38,449.3,,,,Phanerozoic
+Baltoscania,Nabala,449.3,450.23,,,,Phanerozoic
+Baltoscania,Rakvere,450.23,451.87,,,,Phanerozoic
+Baltoscania,Oandu,451.87,452.97,,,,Phanerozoic
+Baltoscania,Keila,452.97,453.99,,,,Phanerozoic
+Baltoscania,Haljala,453.99,456.63,,,,Phanerozoic
+Baltoscania,Kukruse,456.63,458.19,,,,Phanerozoic
+Baltoscania,Uhaku,458.19,460.84,,,,Phanerozoic
+Baltoscania,Lasnamagi,460.84,461.95,,,,Phanerozoic
+Baltoscania,Aseri,461.95,462.52,,,,Phanerozoic
+Baltoscania,Kunda,462.52,466.17,,,,Phanerozoic
+Baltoscania,Volkhov,466.17,470.42,,,,Phanerozoic
+Baltoscania,Billingen,470.42,475.46,,,,Phanerozoic
+Baltoscania,Hunneberg,475.46,479.86,,,,Phanerozoic
+Baltoscania,Varangu,479.86,481.61,,,,Phanerozoic
+Baltoscania,Pakerort,481.61,485.37,,,,Phanerozoic
+Japan,Yuzanjian,0.77,1.49,,,,Phanerozoic
+Japan,Kechienjian,1.49,1.89,,,,Phanerozoic
+Japan,Suchian,1.89,3,,,,Phanerozoic
+Japan,Totomian,3,3.6,,,,Phanerozoic
+Japan,Yuian,3.6,9.52,,,,Phanerozoic
+Japan,Fujian,9.52,11.14,,,,Phanerozoic
+Japan,Kaburan,11.14,13.51,,,,Phanerozoic
+Japan,Tozawan,13.51,15.97,,,,Phanerozoic
+Japan,Haranoyan,15.97,18.21,,,,Phanerozoic
+Japan,Hetonian,66.04,78.12,,,,Phanerozoic
+Japan,Urakawan,78.12,90.05,,,,Phanerozoic
+Japan,Gyliakian,90.05,97.27,,,,Phanerozoic
+Japan,Miyakoan,97.27,126.3,,,,Phanerozoic
+Japan,Aritan,126.3,134.69,,,,Phanerozoic
+Japan,Kochian,134.69,145.01,,,,Phanerozoic
+Australia,Werrikooian,0.99,1.8,,,,Phanerozoic
+Australia,Yatalan,1.8,3.4,,,,Phanerozoic
+Australia,Kalimnan,3.4,4.29,,,,Phanerozoic
+Australia,Cheltenhamian,4.29,5,,,,Phanerozoic
+Australia,Mitchellian,5,10.53,,,,Phanerozoic
+Australia,Bairnsdalian,10.53,15,,,,Phanerozoic
+Australia,Balcombian,15,15.51,,,,Phanerozoic
+Australia,Batesfordian,15.51,16.51,,,,Phanerozoic
+Australia,Longfordian,16.51,27.18,,,,Phanerozoic
+Australia,Janjukian,27.18,29.77,,,,Phanerozoic
+Australia,Aldingan,29.77,36.48,,,,Phanerozoic
+Australia,Johannian,36.48,51.73,,,,Phanerozoic
+Australia,Wangerripian,51.73,62.29,,,,Phanerozoic
+Australia,Early (Danian),62.29,66.04,,,,Phanerozoic
+Australia,Melbournian,419.2,433.35,,,,Phanerozoic
+Australia,Eildonian,433.35,436.49,,,,Phanerozoic
+Australia,Keiloran,436.49,443.83,,,,Phanerozoic
+Australia,Bolindian,443.83,448.38,,,,Phanerozoic
+Australia,Eastonian,448.38,452.97,,,,Phanerozoic
+Australia,Gisbornian,452.97,458.36,,,,Phanerozoic
+Australia,Darriwilian,458.36,467.25,,,,Phanerozoic
+Australia,Yapeenian,467.25,468.31,,,,Phanerozoic
+Australia,Castlemainian,468.31,470.42,,,,Phanerozoic
+Australia,Chewtonian,470.42,472.41,,,,Phanerozoic
+Australia,Bendigonian,472.41,475.97,,,,Phanerozoic
+Australia,Lancefieldian,475.97,484.28,,,,Phanerozoic
+Australia,Warendan,484.28,485.43,,,,Phanerozoic
+Australia,Datsonian ,485.43,486.73,,,,Phanerozoic
+Australia,Payntonian,486.73,489.5,,,,Phanerozoic
+Australia,Iverian,489.5,494,,,,Phanerozoic
+Australia,Idamean,494,497,,,,Phanerozoic
+Australia,Mindyallan,497,499.1,,,,Phanerozoic
+Australia,Boomerangian,499.1,500.5,,,,Phanerozoic
+Australia,Undillan,500.5,502.98,,,,Phanerozoic
+Australia,Floran,502.98,504.5,,,,Phanerozoic
+Australia,Templetonian,504.5,507.96,,,,Phanerozoic
+Australia,Ordian,507.96,511.5,,,,Phanerozoic
+Australia,Lower Cambrian [no subdivisions],511.5,541,,,,Phanerozoic
+Australia,Adelaidean,541,566,,,,Phanerozoic

@@ -1,0 +1,32 @@
+tsna:Example
+  rdf:type gts:Epoch ;
+  rdf:type gts:GeochronologicEra ;
+  rdf:type skos:Concept ;
+  rdf:type time:ProperInterval ;
+  rdfs:label "Example Epoch"@en ;
+  skos:broader tsna:REPLACE1 ;
+  skos:broaderTransitive isc:REPLACE2 ;
+  skos:broaderTransitive isc:REPLACE3 ;
+  skos:broaderTransitive isc:Phanerozoic ;
+  skos:inScheme ts:tsna2019 ;
+  time:hasBeginning  tsna:BaseExample ;
+  time:hasEnd tsna:BaseREPLACE4 ;
+.
+
+tsna:BaseExample
+  rdf:type gts:GeochronologicBoundary ;
+  rdf:type thors:EraBoundary ;
+  rdf:type skos:Concept ;
+  rdf:type time:Instant ;
+  rdfs:label "Base of Example"@en ;
+  skos:prefLabel "Base of Example"@en ;
+  time:inTemporalPosition tsna:BaseExampleTime ;
+  rdfs:seeAlso isc:BasePhanerozoic ;
+.
+
+tsna:BaseExampleTime
+  rdf:type time:TimePosition ;
+  time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
+  time:numericPosition "REPLACE4"^^xsd:decimal
+.
+
