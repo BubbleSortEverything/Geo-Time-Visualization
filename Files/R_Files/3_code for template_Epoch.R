@@ -1,5 +1,5 @@
-ex <- readLines("template_Epoch.txt") # the template
-data <- read.csv("data.csv") # the csv file with the Epoch data
+ex <- readLines("2_template_Epoch.txt") # the template
+data <- read.csv("CSVepoch.csv") # the csv file with the Epoch data
 
 for (i in 2:nrow(data)){
   ex1 <- gsub(pattern = "Example", replace = as.character(data[i,2]), x = ex) # the name of the concept
@@ -13,4 +13,4 @@ for (i in 2:nrow(data)){
     result <- c(result,ex1)
   }
 }
-write(result, "result.ttl")
+write(result, "resultEpoch.ttl")
