@@ -1,9 +1,9 @@
 tsna:Example
-  rdf:type gts:Epoch ;
+  rdf:type gts:Age ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Example Epoch"@en ;
+  rdfs:label "Example Age"@en ;
   skos:broader tsna:REPLACE1 ;
   skos:broaderTransitive isc:REPLACE2 ;
   skos:broaderTransitive isc:REPLACE3 ;

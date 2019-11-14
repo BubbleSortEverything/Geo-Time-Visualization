@@ -1,9 +1,9 @@
 tsna:Castlecliffian
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Castlecliffian Age"@en ;
+  rdfs:label "Castlecliffian Epoch"@en ;
   skos:broader tsna:Wanganui ;
   skos:broaderTransitive isc:Quaternary ;
   skos:broaderTransitive isc:Cenozoic ;
@@ -31,11 +31,11 @@ tsna:BaseCastlecliffianTime
 .
 
 tsna:Nukumaruan
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Nukumaruan Age"@en ;
+  rdfs:label "Nukumaruan Epoch"@en ;
   skos:broader tsna:Wanganui ;
   skos:broaderTransitive isc:Quaternary ;
   skos:broaderTransitive isc:Cenozoic ;
@@ -63,11 +63,11 @@ tsna:BaseNukumaruanTime
 .
 
 tsna:Mangapanian
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Mangapanian Age"@en ;
+  rdfs:label "Mangapanian Epoch"@en ;
   skos:broader tsna:Wanganui ;
   skos:broaderTransitive isc:Neogene ;
   skos:broaderTransitive isc:Cenozoic ;
@@ -95,11 +95,11 @@ tsna:BaseMangapanianTime
 .
 
 tsna:Waipipian
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Waipipian Age"@en ;
+  rdfs:label "Waipipian Epoch"@en ;
   skos:broader tsna:Wanganui ;
   skos:broaderTransitive isc:Neogene ;
   skos:broaderTransitive isc:Cenozoic ;
@@ -127,11 +127,11 @@ tsna:BaseWaipipianTime
 .
 
 tsna:Opoitian
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Opoitian Age"@en ;
+  rdfs:label "Opoitian Epoch"@en ;
   skos:broader tsna:Wanganui ;
   skos:broaderTransitive isc:Neogene ;
   skos:broaderTransitive isc:Cenozoic ;
@@ -159,11 +159,11 @@ tsna:BaseOpoitianTime
 .
 
 tsna:Kapitean
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Kapitean Age"@en ;
+  rdfs:label "Kapitean Epoch"@en ;
   skos:broader tsna:Taranaki ;
   skos:broaderTransitive isc:Neogene ;
   skos:broaderTransitive isc:Cenozoic ;
@@ -191,11 +191,11 @@ tsna:BaseKapiteanTime
 .
 
 tsna:Tongaporutuan
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Tongaporutuan Age"@en ;
+  rdfs:label "Tongaporutuan Epoch"@en ;
   skos:broader tsna:Taranaki ;
   skos:broaderTransitive isc:Neogene ;
   skos:broaderTransitive isc:Cenozoic ;
@@ -223,11 +223,11 @@ tsna:BaseTongaporutuanTime
 .
 
 tsna:Waiauan
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Waiauan Age"@en ;
+  rdfs:label "Waiauan Epoch"@en ;
   skos:broader tsna:Southland ;
   skos:broaderTransitive isc:Neogene ;
   skos:broaderTransitive isc:Cenozoic ;
@@ -255,11 +255,11 @@ tsna:BaseWaiauanTime
 .
 
 tsna:Lillburnian
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Lillburnian Age"@en ;
+  rdfs:label "Lillburnian Epoch"@en ;
   skos:broader tsna:Southland ;
   skos:broaderTransitive isc:Neogene ;
   skos:broaderTransitive isc:Cenozoic ;
@@ -287,11 +287,11 @@ tsna:BaseLillburnianTime
 .
 
 tsna:Clifdenian
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Clifdenian Age"@en ;
+  rdfs:label "Clifdenian Epoch"@en ;
   skos:broader tsna:Southland ;
   skos:broaderTransitive isc:Neogene ;
   skos:broaderTransitive isc:Cenozoic ;
@@ -319,11 +319,11 @@ tsna:BaseClifdenianTime
 .
 
 tsna:Altonian
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Altonian Age"@en ;
+  rdfs:label "Altonian Epoch"@en ;
   skos:broader tsna:Pareora ;
   skos:broaderTransitive isc:Neogene ;
   skos:broaderTransitive isc:Cenozoic ;
@@ -351,11 +351,11 @@ tsna:BaseAltonianTime
 .
 
 tsna:Otaian
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Otaian Age"@en ;
+  rdfs:label "Otaian Epoch"@en ;
   skos:broader tsna:Pareora ;
   skos:broaderTransitive isc:Neogene ;
   skos:broaderTransitive isc:Cenozoic ;
@@ -383,11 +383,11 @@ tsna:BaseOtaianTime
 .
 
 tsna:Waitakian
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Waitakian Age"@en ;
+  rdfs:label "Waitakian Epoch"@en ;
   skos:broader tsna:Landon ;
   skos:broaderTransitive isc:Paleogene ;
   skos:broaderTransitive isc:Cenozoic ;
@@ -415,11 +415,11 @@ tsna:BaseWaitakianTime
 .
 
 tsna:Duntroonian
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Duntroonian Age"@en ;
+  rdfs:label "Duntroonian Epoch"@en ;
   skos:broader tsna:Landon ;
   skos:broaderTransitive isc:Paleogene ;
   skos:broaderTransitive isc:Cenozoic ;
@@ -447,11 +447,11 @@ tsna:BaseDuntroonianTime
 .
 
 tsna:Whaingaroan
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Whaingaroan Age"@en ;
+  rdfs:label "Whaingaroan Epoch"@en ;
   skos:broader tsna:Landon ;
   skos:broaderTransitive isc:Paleogene ;
   skos:broaderTransitive isc:Cenozoic ;
@@ -479,11 +479,11 @@ tsna:BaseWhaingaroanTime
 .
 
 tsna:Runangan
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Runangan Age"@en ;
+  rdfs:label "Runangan Epoch"@en ;
   skos:broader tsna:Arnold ;
   skos:broaderTransitive isc:Paleogene ;
   skos:broaderTransitive isc:Cenozoic ;
@@ -511,11 +511,11 @@ tsna:BaseRunanganTime
 .
 
 tsna:Kaiatan
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Kaiatan Age"@en ;
+  rdfs:label "Kaiatan Epoch"@en ;
   skos:broader tsna:Arnold ;
   skos:broaderTransitive isc:Paleogene ;
   skos:broaderTransitive isc:Cenozoic ;
@@ -543,11 +543,11 @@ tsna:BaseKaiatanTime
 .
 
 tsna:Bortonian
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Bortonian Age"@en ;
+  rdfs:label "Bortonian Epoch"@en ;
   skos:broader tsna:Arnold ;
   skos:broaderTransitive isc:Paleogene ;
   skos:broaderTransitive isc:Cenozoic ;
@@ -575,11 +575,11 @@ tsna:BaseBortonianTime
 .
 
 tsna:Porangan
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Porangan Age"@en ;
+  rdfs:label "Porangan Epoch"@en ;
   skos:broader tsna:Dannevirke ;
   skos:broaderTransitive isc:Paleogene ;
   skos:broaderTransitive isc:Cenozoic ;
@@ -607,11 +607,11 @@ tsna:BasePoranganTime
 .
 
 tsna:Heretaungan
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Heretaungan Age"@en ;
+  rdfs:label "Heretaungan Epoch"@en ;
   skos:broader tsna:Dannevirke ;
   skos:broaderTransitive isc:Paleogene ;
   skos:broaderTransitive isc:Cenozoic ;
@@ -639,11 +639,11 @@ tsna:BaseHeretaunganTime
 .
 
 tsna:Mangaorapan
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Mangaorapan Age"@en ;
+  rdfs:label "Mangaorapan Epoch"@en ;
   skos:broader tsna:Dannevirke ;
   skos:broaderTransitive isc:Paleogene ;
   skos:broaderTransitive isc:Cenozoic ;
@@ -671,11 +671,11 @@ tsna:BaseMangaorapanTime
 .
 
 tsna:Waipawan
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Waipawan Age"@en ;
+  rdfs:label "Waipawan Epoch"@en ;
   skos:broader tsna:Dannevirke ;
   skos:broaderTransitive isc:Paleogene ;
   skos:broaderTransitive isc:Cenozoic ;
@@ -703,11 +703,11 @@ tsna:BaseWaipawanTime
 .
 
 tsna:Teurian
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Teurian Age"@en ;
+  rdfs:label "Teurian Epoch"@en ;
   skos:broader tsna:Dannevirke ;
   skos:broaderTransitive isc:Paleogene ;
   skos:broaderTransitive isc:Cenozoic ;
@@ -735,11 +735,11 @@ tsna:BaseTeurianTime
 .
 
 tsna:Haumurian
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Haumurian Age"@en ;
+  rdfs:label "Haumurian Epoch"@en ;
   skos:broader tsna:Mata ;
   skos:broaderTransitive isc:Cretaceous ;
   skos:broaderTransitive isc:Mesozoic ;
@@ -767,11 +767,11 @@ tsna:BaseHaumurianTime
 .
 
 tsna:Piripauan
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Piripauan Age"@en ;
+  rdfs:label "Piripauan Epoch"@en ;
   skos:broader tsna:Mata ;
   skos:broaderTransitive isc:Cretaceous ;
   skos:broaderTransitive isc:Mesozoic ;
@@ -799,11 +799,11 @@ tsna:BasePiripauanTime
 .
 
 tsna:Teratan
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Teratan Age"@en ;
+  rdfs:label "Teratan Epoch"@en ;
   skos:broader tsna:Raukumara ;
   skos:broaderTransitive isc:Cretaceous ;
   skos:broaderTransitive isc:Mesozoic ;
@@ -831,11 +831,11 @@ tsna:BaseTeratanTime
 .
 
 tsna:Mangaotanean
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Mangaotanean Age"@en ;
+  rdfs:label "Mangaotanean Epoch"@en ;
   skos:broader tsna:Raukumara ;
   skos:broaderTransitive isc:Cretaceous ;
   skos:broaderTransitive isc:Mesozoic ;
@@ -863,11 +863,11 @@ tsna:BaseMangaotaneanTime
 .
 
 tsna:Arowhanan
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Arowhanan Age"@en ;
+  rdfs:label "Arowhanan Epoch"@en ;
   skos:broader tsna:Raukumara ;
   skos:broaderTransitive isc:Cretaceous ;
   skos:broaderTransitive isc:Mesozoic ;
@@ -895,11 +895,11 @@ tsna:BaseArowhananTime
 .
 
 tsna:Ngaterian
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Ngaterian Age"@en ;
+  rdfs:label "Ngaterian Epoch"@en ;
   skos:broader tsna:Clarence ;
   skos:broaderTransitive isc:Cretaceous ;
   skos:broaderTransitive isc:Mesozoic ;
@@ -927,11 +927,11 @@ tsna:BaseNgaterianTime
 .
 
 tsna:Motuan
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Motuan Age"@en ;
+  rdfs:label "Motuan Epoch"@en ;
   skos:broader tsna:Clarence ;
   skos:broaderTransitive isc:Cretaceous ;
   skos:broaderTransitive isc:Mesozoic ;
@@ -959,11 +959,11 @@ tsna:BaseMotuanTime
 .
 
 tsna:Urutawan
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Urutawan Age"@en ;
+  rdfs:label "Urutawan Epoch"@en ;
   skos:broader tsna:Clarence ;
   skos:broaderTransitive isc:Cretaceous ;
   skos:broaderTransitive isc:Mesozoic ;
@@ -991,11 +991,11 @@ tsna:BaseUrutawanTime
 .
 
 tsna:Korangan
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Korangan Age"@en ;
+  rdfs:label "Korangan Epoch"@en ;
   skos:broader tsna:Taitai ;
   skos:broaderTransitive isc:Cretaceous ;
   skos:broaderTransitive isc:Mesozoic ;
@@ -1023,11 +1023,11 @@ tsna:BaseKoranganTime
 .
 
 tsna:Puaroan
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Puaroan Age"@en ;
+  rdfs:label "Puaroan Epoch"@en ;
   skos:broader tsna:Oteke ;
   skos:broaderTransitive isc:Jurassic ;
   skos:broaderTransitive isc:Mesozoic ;
@@ -1055,11 +1055,11 @@ tsna:BasePuaroanTime
 .
 
 tsna:Ohauan
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Ohauan Age"@en ;
+  rdfs:label "Ohauan Epoch"@en ;
   skos:broader tsna:Kawhia ;
   skos:broaderTransitive isc:Jurassic ;
   skos:broaderTransitive isc:Mesozoic ;
@@ -1087,11 +1087,11 @@ tsna:BaseOhauanTime
 .
 
 tsna:Heterian
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Heterian Age"@en ;
+  rdfs:label "Heterian Epoch"@en ;
   skos:broader tsna:Kawhia ;
   skos:broaderTransitive isc:Jurassic ;
   skos:broaderTransitive isc:Mesozoic ;
@@ -1119,11 +1119,11 @@ tsna:BaseHeterianTime
 .
 
 tsna:Temaikan
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Temaikan Age"@en ;
+  rdfs:label "Temaikan Epoch"@en ;
   skos:broader tsna:Kawhia ;
   skos:broaderTransitive isc:Jurassic ;
   skos:broaderTransitive isc:Mesozoic ;
@@ -1151,11 +1151,11 @@ tsna:BaseTemaikanTime
 .
 
 tsna:Ururoan
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Ururoan Age"@en ;
+  rdfs:label "Ururoan Epoch"@en ;
   skos:broader tsna:Herangi ;
   skos:broaderTransitive isc:Jurassic ;
   skos:broaderTransitive isc:Mesozoic ;
@@ -1183,11 +1183,11 @@ tsna:BaseUruroanTime
 .
 
 tsna:Aratauran
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Aratauran Age"@en ;
+  rdfs:label "Aratauran Epoch"@en ;
   skos:broader tsna:Herangi ;
   skos:broaderTransitive isc:Jurassic ;
   skos:broaderTransitive isc:Mesozoic ;
@@ -1215,11 +1215,11 @@ tsna:BaseAratauranTime
 .
 
 tsna:Otapirian
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Otapirian Age"@en ;
+  rdfs:label "Otapirian Epoch"@en ;
   skos:broader tsna:Balfour ;
   skos:broaderTransitive isc:Triassic ;
   skos:broaderTransitive isc:Mesozoic ;
@@ -1247,11 +1247,11 @@ tsna:BaseOtapirianTime
 .
 
 tsna:Warepan
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Warepan Age"@en ;
+  rdfs:label "Warepan Epoch"@en ;
   skos:broader tsna:Balfour ;
   skos:broaderTransitive isc:Triassic ;
   skos:broaderTransitive isc:Mesozoic ;
@@ -1279,11 +1279,11 @@ tsna:BaseWarepanTime
 .
 
 tsna:Otamitan
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Otamitan Age"@en ;
+  rdfs:label "Otamitan Epoch"@en ;
   skos:broader tsna:Balfour ;
   skos:broaderTransitive isc:Triassic ;
   skos:broaderTransitive isc:Mesozoic ;
@@ -1311,11 +1311,11 @@ tsna:BaseOtamitanTime
 .
 
 tsna:Oretian
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Oretian Age"@en ;
+  rdfs:label "Oretian Epoch"@en ;
   skos:broader tsna:Balfour ;
   skos:broaderTransitive isc:Triassic ;
   skos:broaderTransitive isc:Mesozoic ;
@@ -1343,11 +1343,11 @@ tsna:BaseOretianTime
 .
 
 tsna:Kaihikuan
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Kaihikuan Age"@en ;
+  rdfs:label "Kaihikuan Epoch"@en ;
   skos:broader tsna:Gore ;
   skos:broaderTransitive isc:Triassic ;
   skos:broaderTransitive isc:Mesozoic ;
@@ -1375,11 +1375,11 @@ tsna:BaseKaihikuanTime
 .
 
 tsna:Etalian
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Etalian Age"@en ;
+  rdfs:label "Etalian Epoch"@en ;
   skos:broader tsna:Gore ;
   skos:broaderTransitive isc:Triassic ;
   skos:broaderTransitive isc:Mesozoic ;
@@ -1407,11 +1407,11 @@ tsna:BaseEtalianTime
 .
 
 tsna:Malakovian
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Malakovian Age"@en ;
+  rdfs:label "Malakovian Epoch"@en ;
   skos:broader tsna:Gore ;
   skos:broaderTransitive isc:Triassic ;
   skos:broaderTransitive isc:Mesozoic ;
@@ -1439,11 +1439,11 @@ tsna:BaseMalakovianTime
 .
 
 tsna:Nelsonian
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Nelsonian Age"@en ;
+  rdfs:label "Nelsonian Epoch"@en ;
   skos:broader tsna:Gore ;
   skos:broaderTransitive isc:Triassic ;
   skos:broaderTransitive isc:Mesozoic ;
@@ -1471,11 +1471,11 @@ tsna:BaseNelsonianTime
 .
 
 tsna:Makarewan
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Makarewan Age"@en ;
+  rdfs:label "Makarewan Epoch"@en ;
   skos:broader tsna:D'Urville ;
   skos:broaderTransitive isc:Permian ;
   skos:broaderTransitive isc:Paleozoic ;
@@ -1503,11 +1503,11 @@ tsna:BaseMakarewanTime
 .
 
 tsna:Waiitian
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Waiitian Age"@en ;
+  rdfs:label "Waiitian Epoch"@en ;
   skos:broader tsna:D'Urville ;
   skos:broaderTransitive isc:Permian ;
   skos:broaderTransitive isc:Paleozoic ;
@@ -1535,11 +1535,11 @@ tsna:BaseWaiitianTime
 .
 
 tsna:Puruhauan
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Puruhauan Age"@en ;
+  rdfs:label "Puruhauan Epoch"@en ;
   skos:broader tsna:D'Urville ;
   skos:broaderTransitive isc:Permian ;
   skos:broaderTransitive isc:Paleozoic ;
@@ -1567,11 +1567,11 @@ tsna:BasePuruhauanTime
 .
 
 tsna:Flettian
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Flettian Age"@en ;
+  rdfs:label "Flettian Epoch"@en ;
   skos:broader tsna:Aparima ;
   skos:broaderTransitive isc:Permian ;
   skos:broaderTransitive isc:Paleozoic ;
@@ -1599,11 +1599,11 @@ tsna:BaseFlettianTime
 .
 
 tsna:Barrettian
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Barrettian Age"@en ;
+  rdfs:label "Barrettian Epoch"@en ;
   skos:broader tsna:Aparima ;
   skos:broaderTransitive isc:Permian ;
   skos:broaderTransitive isc:Paleozoic ;
@@ -1631,11 +1631,11 @@ tsna:BaseBarrettianTime
 .
 
 tsna:Mangapirian
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Mangapirian Age"@en ;
+  rdfs:label "Mangapirian Epoch"@en ;
   skos:broader tsna:Aparima ;
   skos:broaderTransitive isc:Permian ;
   skos:broaderTransitive isc:Paleozoic ;
@@ -1663,11 +1663,11 @@ tsna:BaseMangapirianTime
 .
 
 tsna:Telfordian
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Telfordian Age"@en ;
+  rdfs:label "Telfordian Epoch"@en ;
   skos:broader tsna:Aparima ;
   skos:broaderTransitive isc:Permian ;
   skos:broaderTransitive isc:Paleozoic ;
@@ -1695,11 +1695,11 @@ tsna:BaseTelfordianTime
 .
 
 tsna:pre-Telfordian
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "pre-Telfordian Age"@en ;
+  rdfs:label "pre-Telfordian Epoch"@en ;
   skos:broader tsna: ;
   skos:broaderTransitive isc:Permian ;
   skos:broaderTransitive isc:Paleozoic ;
@@ -1727,11 +1727,11 @@ tsna:Basepre-TelfordianTime
 .
 
 tsna:Famennian
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Famennian Age"@en ;
+  rdfs:label "Famennian Epoch"@en ;
   skos:broader tsna:Late ;
   skos:broaderTransitive isc:Devonian ;
   skos:broaderTransitive isc:Paleozoic ;
@@ -1759,11 +1759,11 @@ tsna:BaseFamennianTime
 .
 
 tsna:Frasnian
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Frasnian Age"@en ;
+  rdfs:label "Frasnian Epoch"@en ;
   skos:broader tsna:Late ;
   skos:broaderTransitive isc:Devonian ;
   skos:broaderTransitive isc:Paleozoic ;
@@ -1791,11 +1791,11 @@ tsna:BaseFrasnianTime
 .
 
 tsna:Givetian
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Givetian Age"@en ;
+  rdfs:label "Givetian Epoch"@en ;
   skos:broader tsna:Middle ;
   skos:broaderTransitive isc:Devonian ;
   skos:broaderTransitive isc:Paleozoic ;
@@ -1823,11 +1823,11 @@ tsna:BaseGivetianTime
 .
 
 tsna:Eifelian
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Eifelian Age"@en ;
+  rdfs:label "Eifelian Epoch"@en ;
   skos:broader tsna:Middle ;
   skos:broaderTransitive isc:Devonian ;
   skos:broaderTransitive isc:Paleozoic ;
@@ -1855,11 +1855,11 @@ tsna:BaseEifelianTime
 .
 
 tsna:Emsian
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Emsian Age"@en ;
+  rdfs:label "Emsian Epoch"@en ;
   skos:broader tsna:Early ;
   skos:broaderTransitive isc:Devonian ;
   skos:broaderTransitive isc:Paleozoic ;
@@ -1887,11 +1887,11 @@ tsna:BaseEmsianTime
 .
 
 tsna:Pragian
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Pragian Age"@en ;
+  rdfs:label "Pragian Epoch"@en ;
   skos:broader tsna:Early ;
   skos:broaderTransitive isc:Devonian ;
   skos:broaderTransitive isc:Paleozoic ;
@@ -1919,11 +1919,11 @@ tsna:BasePragianTime
 .
 
 tsna:Lochkovian
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Lochkovian Age"@en ;
+  rdfs:label "Lochkovian Epoch"@en ;
   skos:broader tsna:Early ;
   skos:broaderTransitive isc:Devonian ;
   skos:broaderTransitive isc:Paleozoic ;
@@ -1951,11 +1951,11 @@ tsna:BaseLochkovianTime
 .
 
 tsna:Ludfordian
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Ludfordian Age"@en ;
+  rdfs:label "Ludfordian Epoch"@en ;
   skos:broader tsna:Ludlow ;
   skos:broaderTransitive isc:Silurian ;
   skos:broaderTransitive isc:Paleozoic ;
@@ -1983,11 +1983,11 @@ tsna:BaseLudfordianTime
 .
 
 tsna:Gorstian
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Gorstian Age"@en ;
+  rdfs:label "Gorstian Epoch"@en ;
   skos:broader tsna:Ludlow ;
   skos:broaderTransitive isc:Silurian ;
   skos:broaderTransitive isc:Paleozoic ;
@@ -2015,11 +2015,11 @@ tsna:BaseGorstianTime
 .
 
 tsna:Homerian
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Homerian Age"@en ;
+  rdfs:label "Homerian Epoch"@en ;
   skos:broader tsna:Wenlock ;
   skos:broaderTransitive isc:Silurian ;
   skos:broaderTransitive isc:Paleozoic ;
@@ -2047,11 +2047,11 @@ tsna:BaseHomerianTime
 .
 
 tsna:Sheinwoodian
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Sheinwoodian Age"@en ;
+  rdfs:label "Sheinwoodian Epoch"@en ;
   skos:broader tsna:Wenlock ;
   skos:broaderTransitive isc:Silurian ;
   skos:broaderTransitive isc:Paleozoic ;
@@ -2079,11 +2079,11 @@ tsna:BaseSheinwoodianTime
 .
 
 tsna:Telychian
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Telychian Age"@en ;
+  rdfs:label "Telychian Epoch"@en ;
   skos:broader tsna:Llandovery ;
   skos:broaderTransitive isc:Silurian ;
   skos:broaderTransitive isc:Paleozoic ;
@@ -2111,11 +2111,11 @@ tsna:BaseTelychianTime
 .
 
 tsna:Aeronian
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Aeronian Age"@en ;
+  rdfs:label "Aeronian Epoch"@en ;
   skos:broader tsna:Llandovery ;
   skos:broaderTransitive isc:Silurian ;
   skos:broaderTransitive isc:Paleozoic ;
@@ -2143,11 +2143,11 @@ tsna:BaseAeronianTime
 .
 
 tsna:Rhuddanian
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Rhuddanian Age"@en ;
+  rdfs:label "Rhuddanian Epoch"@en ;
   skos:broader tsna:Llandovery ;
   skos:broaderTransitive isc:Silurian ;
   skos:broaderTransitive isc:Paleozoic ;
@@ -2175,11 +2175,11 @@ tsna:BaseRhuddanianTime
 .
 
 tsna:Bolindian
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Bolindian Age"@en ;
+  rdfs:label "Bolindian Epoch"@en ;
   skos:broader tsna:Late ;
   skos:broaderTransitive isc:Ordovician ;
   skos:broaderTransitive isc:Paleozoic ;
@@ -2207,11 +2207,11 @@ tsna:BaseBolindianTime
 .
 
 tsna:Eastonian
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Eastonian Age"@en ;
+  rdfs:label "Eastonian Epoch"@en ;
   skos:broader tsna:Late ;
   skos:broaderTransitive isc:Ordovician ;
   skos:broaderTransitive isc:Paleozoic ;
@@ -2239,11 +2239,11 @@ tsna:BaseEastonianTime
 .
 
 tsna:Gisbornian
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Gisbornian Age"@en ;
+  rdfs:label "Gisbornian Epoch"@en ;
   skos:broader tsna:Late ;
   skos:broaderTransitive isc:Ordovician ;
   skos:broaderTransitive isc:Paleozoic ;
@@ -2271,11 +2271,11 @@ tsna:BaseGisbornianTime
 .
 
 tsna:Darriwillian
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Darriwillian Age"@en ;
+  rdfs:label "Darriwillian Epoch"@en ;
   skos:broader tsna:Middle ;
   skos:broaderTransitive isc:Ordovician ;
   skos:broaderTransitive isc:Paleozoic ;
@@ -2303,11 +2303,11 @@ tsna:BaseDarriwillianTime
 .
 
 tsna:Yapeenian
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Yapeenian Age"@en ;
+  rdfs:label "Yapeenian Epoch"@en ;
   skos:broader tsna:Middle ;
   skos:broaderTransitive isc:Ordovician ;
   skos:broaderTransitive isc:Paleozoic ;
@@ -2335,11 +2335,11 @@ tsna:BaseYapeenianTime
 .
 
 tsna:Castlemainian
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Castlemainian Age"@en ;
+  rdfs:label "Castlemainian Epoch"@en ;
   skos:broader tsna:Middle ;
   skos:broaderTransitive isc:Ordovician ;
   skos:broaderTransitive isc:Paleozoic ;
@@ -2367,11 +2367,11 @@ tsna:BaseCastlemainianTime
 .
 
 tsna:Chewtonian
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Chewtonian Age"@en ;
+  rdfs:label "Chewtonian Epoch"@en ;
   skos:broader tsna:Early ;
   skos:broaderTransitive isc:Ordovician ;
   skos:broaderTransitive isc:Paleozoic ;
@@ -2399,11 +2399,11 @@ tsna:BaseChewtonianTime
 .
 
 tsna:Bendigonian
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Bendigonian Age"@en ;
+  rdfs:label "Bendigonian Epoch"@en ;
   skos:broader tsna:Early ;
   skos:broaderTransitive isc:Ordovician ;
   skos:broaderTransitive isc:Paleozoic ;
@@ -2431,11 +2431,11 @@ tsna:BaseBendigonianTime
 .
 
 tsna:Lancefieldian
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Lancefieldian Age"@en ;
+  rdfs:label "Lancefieldian Epoch"@en ;
   skos:broader tsna:Early ;
   skos:broaderTransitive isc:Ordovician ;
   skos:broaderTransitive isc:Paleozoic ;
@@ -2463,11 +2463,11 @@ tsna:BaseLancefieldianTime
 .
 
 tsna:Warendian
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Warendian Age"@en ;
+  rdfs:label "Warendian Epoch"@en ;
   skos:broader tsna:Early ;
   skos:broaderTransitive isc:Ordovician ;
   skos:broaderTransitive isc:Paleozoic ;
@@ -2495,11 +2495,11 @@ tsna:BaseWarendianTime
 .
 
 tsna:Datsonian
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Datsonian Age"@en ;
+  rdfs:label "Datsonian Epoch"@en ;
   skos:broader tsna:Furongian ;
   skos:broaderTransitive isc:Cambrian ;
   skos:broaderTransitive isc:Paleozoic ;
@@ -2527,11 +2527,11 @@ tsna:BaseDatsonianTime
 .
 
 tsna:Payntonian
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Payntonian Age"@en ;
+  rdfs:label "Payntonian Epoch"@en ;
   skos:broader tsna:Furongian ;
   skos:broaderTransitive isc:Cambrian ;
   skos:broaderTransitive isc:Paleozoic ;
@@ -2559,11 +2559,11 @@ tsna:BasePayntonianTime
 .
 
 tsna:Iverian
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Iverian Age"@en ;
+  rdfs:label "Iverian Epoch"@en ;
   skos:broader tsna:Furongian ;
   skos:broaderTransitive isc:Cambrian ;
   skos:broaderTransitive isc:Paleozoic ;
@@ -2591,11 +2591,11 @@ tsna:BaseIverianTime
 .
 
 tsna:Idamean
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Idamean Age"@en ;
+  rdfs:label "Idamean Epoch"@en ;
   skos:broader tsna:Furongian ;
   skos:broaderTransitive isc:Cambrian ;
   skos:broaderTransitive isc:Paleozoic ;
@@ -2623,11 +2623,11 @@ tsna:BaseIdameanTime
 .
 
 tsna:Mindyallan
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Mindyallan Age"@en ;
+  rdfs:label "Mindyallan Epoch"@en ;
   skos:broader tsna:Middle ;
   skos:broaderTransitive isc:Cambrian ;
   skos:broaderTransitive isc:Paleozoic ;
@@ -2655,11 +2655,11 @@ tsna:BaseMindyallanTime
 .
 
 tsna:Boomerangian
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Boomerangian Age"@en ;
+  rdfs:label "Boomerangian Epoch"@en ;
   skos:broader tsna:Middle ;
   skos:broaderTransitive isc:Cambrian ;
   skos:broaderTransitive isc:Paleozoic ;
@@ -2687,11 +2687,11 @@ tsna:BaseBoomerangianTime
 .
 
 tsna:Undillian
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Undillian Age"@en ;
+  rdfs:label "Undillian Epoch"@en ;
   skos:broader tsna:Middle ;
   skos:broaderTransitive isc:Cambrian ;
   skos:broaderTransitive isc:Paleozoic ;
@@ -2719,11 +2719,11 @@ tsna:BaseUndillianTime
 .
 
 tsna:Floran
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Floran Age"@en ;
+  rdfs:label "Floran Epoch"@en ;
   skos:broader tsna:Middle ;
   skos:broaderTransitive isc:Cambrian ;
   skos:broaderTransitive isc:Paleozoic ;
@@ -2751,11 +2751,11 @@ tsna:BaseFloranTime
 .
 
 tsna:Templetonian
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Templetonian Age"@en ;
+  rdfs:label "Templetonian Epoch"@en ;
   skos:broader tsna:Middle ;
   skos:broaderTransitive isc:Cambrian ;
   skos:broaderTransitive isc:Paleozoic ;
@@ -2783,11 +2783,11 @@ tsna:BaseTempletonianTime
 .
 
 tsna:Ordian
-  rdf:type gts:Age ;
+  rdf:type gts:Epoch ;
   rdf:type gts:GeochronologicEra ;
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
-  rdfs:label "Ordian Age"@en ;
+  rdfs:label "Ordian Epoch"@en ;
   skos:broader tsna:Middle ;
   skos:broaderTransitive isc:Cambrian ;
   skos:broaderTransitive isc:Paleozoic ;
