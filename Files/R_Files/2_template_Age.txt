@@ -27,6 +27,6 @@ tsna:BaseExample
 tsna:BaseExampleTime
   rdf:type time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
-  time:numericPosition "REPLACE4"^^xsd:decimal
+  time:numericPosition "REPLACE5"^^xsd:decimal
 .
 

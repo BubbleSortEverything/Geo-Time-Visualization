@@ -1,5 +1,5 @@
 ex <- readLines("2_template_Age.txt") # the template
-data <- read.csv("CSVage.csv") # the csv file with the Age data (Age and age are different here)
+data <- read.csv("CSVage.csv", header = FALSE) # the csv file with the Age data (Age and age are different here)
 
 for (i in 2:nrow(data)){
   ex1 <- gsub(pattern = "Example", replace = as.character(data[i,2]), x = ex) # the name of the concept
@@ -14,5 +14,5 @@ for (i in 2:nrow(data)){
     result <- c(result,ex1)
   }
 }
-write(result, "resultAge.ttl")
+write(result, "resultAgeWithTimeStampAndFirstRowFixed.ttl")
 
