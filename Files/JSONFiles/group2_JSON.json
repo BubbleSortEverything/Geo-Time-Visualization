@@ -1,0 +1,3703 @@
+{
+  "@graph" : [ {
+    "@id" : "http://deeptimekb.org/tsnz#",
+    "@type" : "skos:Collection",
+    "label" : {
+      "@language" : "en",
+      "@value" : "Geologic Timescale Elements in New Zealand"
+    }
+  }, {
+    "@id" : "tsnz:Aeronian",
+    "@type" : [ "skos:Concept", "gts:GeochronologicEra", "time:ProperInterval", "gts:Age" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Aeronian Age"
+    },
+    "broader" : "tsnz:Llandovery",
+    "broaderTransitive" : [ "isc:Silurian", "isc:Phanerozoic", "isc:Paleozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseAeronian",
+    "hasEnd" : "tsnz:BaseTelychian"
+  }, {
+    "@id" : "tsnz:Altonian",
+    "@type" : [ "time:ProperInterval", "gts:Age", "gts:GeochronologicEra", "skos:Concept" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Altonian Age"
+    },
+    "broader" : "tsnz:Pareora",
+    "broaderTransitive" : [ "isc:Neogene", "isc:Phanerozoic", "isc:Cenozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseAltonian",
+    "hasEnd" : "tsnz:BaseClifdenian"
+  }, {
+    "@id" : "tsnz:Aparima",
+    "@type" : [ "skos:Concept", "gts:Epoch", "gts:GeochronologicEra", "time:ProperInterval" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Aparima Epoch"
+    },
+    "broader" : "isc:Permian",
+    "broaderTransitive" : [ "isc:Phanerozoic", "isc:Paleozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseAparima",
+    "hasEnd" : "tsnz:BaseDUrville"
+  }, {
+    "@id" : "tsnz:Aratauran",
+    "@type" : [ "gts:GeochronologicEra", "gts:Age", "time:ProperInterval", "skos:Concept" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Aratauran Age"
+    },
+    "broader" : "tsnz:Herangi",
+    "broaderTransitive" : [ "isc:Phanerozoic", "isc:Jurassic", "isc:Mesozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseAratauran",
+    "hasEnd" : "tsnz:BaseUruroan"
+  }, {
+    "@id" : "tsnz:Arnold",
+    "@type" : [ "skos:Concept", "time:ProperInterval", "gts:GeochronologicEra", "gts:Epoch" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Arnold Epoch"
+    },
+    "broader" : "isc:Paleogene",
+    "broaderTransitive" : [ "isc:Cenozoic", "isc:Phanerozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseArnold",
+    "hasEnd" : "tsnz:BaseLandon"
+  }, {
+    "@id" : "tsnz:Arowhanan",
+    "@type" : [ "time:ProperInterval", "gts:Age", "gts:GeochronologicEra", "skos:Concept" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Arowhanan Age"
+    },
+    "broader" : "tsnz:Raukumara",
+    "broaderTransitive" : [ "isc:Mesozoic", "isc:Cretaceous", "isc:Phanerozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseArowhanan",
+    "hasEnd" : "tsnz:BaseMangaotanean"
+  }, {
+    "@id" : "tsnz:Balfour",
+    "@type" : [ "skos:Concept", "gts:Epoch", "time:ProperInterval", "gts:GeochronologicEra" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Balfour Epoch"
+    },
+    "broader" : "isc:Triassic",
+    "broaderTransitive" : [ "isc:Phanerozoic", "isc:Mesozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseBalfour",
+    "hasEnd" : "tsnz:BaseHerangi"
+  }, {
+    "@id" : "tsnz:Barrettian",
+    "@type" : [ "gts:GeochronologicEra", "time:ProperInterval", "skos:Concept", "gts:Age" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Barrettian Age"
+    },
+    "broader" : "tsnz:Aparima",
+    "broaderTransitive" : [ "isc:Paleozoic", "isc:Permian", "isc:Phanerozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseBarrettian",
+    "hasEnd" : "tsnz:BaseFlettian"
+  }, {
+    "@id" : "tsnz:BaseAeronian",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Aeronian"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Aeronian"
+    },
+    "inTemporalPosition" : "tsnz:BaseAeronianTime"
+  }, {
+    "@id" : "tsnz:BaseAeronianTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "440.77"
+  }, {
+    "@id" : "tsnz:BaseAltonian",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Altonian"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Altonian"
+    },
+    "inTemporalPosition" : "tsnz:BaseAltonianTime"
+  }, {
+    "@id" : "tsnz:BaseAltonianTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "18.7"
+  }, {
+    "@id" : "tsnz:BaseAparima",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Aparima"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Aparima"
+    },
+    "inTemporalPosition" : "tsnz:BaseAparimaTime"
+  }, {
+    "@id" : "tsnz:BaseAparimaTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "288.05"
+  }, {
+    "@id" : "tsnz:BaseAratauran",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Aratauran"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Aratauran"
+    },
+    "inTemporalPosition" : "tsnz:BaseAratauranTime"
+  }, {
+    "@id" : "tsnz:BaseAratauranTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "201.36"
+  }, {
+    "@id" : "tsnz:BaseArnold",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Arnold"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Arnold"
+    },
+    "inTemporalPosition" : "tsnz:BaseArnoldTime"
+  }, {
+    "@id" : "tsnz:BaseArnoldTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "42.51"
+  }, {
+    "@id" : "tsnz:BaseArowhanan",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Arowhanan"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Arowhanan"
+    },
+    "inTemporalPosition" : "tsnz:BaseArowhananTime"
+  }, {
+    "@id" : "tsnz:BaseArowhananTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "95.5"
+  }, {
+    "@id" : "tsnz:BaseBalfour",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Balfour"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Balfour"
+    },
+    "inTemporalPosition" : "tsnz:BaseBalfourTime"
+  }, {
+    "@id" : "tsnz:BaseBalfourTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "228.95"
+  }, {
+    "@id" : "tsnz:BaseBarrettian",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Barrettian"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Barrettian"
+    },
+    "inTemporalPosition" : "tsnz:BaseBarrettianTime"
+  }, {
+    "@id" : "tsnz:BaseBarrettianTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "275.53"
+  }, {
+    "@id" : "tsnz:BaseBendigonian",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Bendigonian"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Bendigonian"
+    },
+    "inTemporalPosition" : "tsnz:BaseBendigonianTime"
+  }, {
+    "@id" : "tsnz:BaseBendigonianTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "475.97"
+  }, {
+    "@id" : "tsnz:BaseBolindian",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Bolindian"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Bolindian"
+    },
+    "inTemporalPosition" : "tsnz:BaseBolindianTime"
+  }, {
+    "@id" : "tsnz:BaseBolindianTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "448.38"
+  }, {
+    "@id" : "tsnz:BaseBoomerangian",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Boomerangian"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Boomerangian"
+    },
+    "inTemporalPosition" : "tsnz:BaseBoomerangianTime"
+  }, {
+    "@id" : "tsnz:BaseBoomerangianTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "500.5"
+  }, {
+    "@id" : "tsnz:BaseBortonian",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Bortonian"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Bortonian"
+    },
+    "inTemporalPosition" : "tsnz:BaseBortonianTime"
+  }, {
+    "@id" : "tsnz:BaseBortonianTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "42.51"
+  }, {
+    "@id" : "tsnz:BaseCastlecliffian",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Castlecliffian"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Castlecliffian"
+    },
+    "inTemporalPosition" : "tsnz:BaseCastlecliffianTime"
+  }, {
+    "@id" : "tsnz:BaseCastlecliffianTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "1.63"
+  }, {
+    "@id" : "tsnz:BaseCastlemainian",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Castlemainian"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Castlemainian"
+    },
+    "inTemporalPosition" : "tsnz:BaseCastlemainianTime"
+  }, {
+    "@id" : "tsnz:BaseCastlemainianTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "470.42"
+  }, {
+    "@id" : "tsnz:BaseChewtonian",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Chewtonian"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Chewtonian"
+    },
+    "inTemporalPosition" : "tsnz:BaseChewtonianTime"
+  }, {
+    "@id" : "tsnz:BaseChewtonianTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "472.41"
+  }, {
+    "@id" : "tsnz:BaseClarence",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Clarence"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Clarence"
+    },
+    "inTemporalPosition" : "tsnz:BaseClarenceTime"
+  }, {
+    "@id" : "tsnz:BaseClarenceTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "108.4"
+  }, {
+    "@id" : "tsnz:BaseClifdenian",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Clifdenian"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Clifdenian"
+    },
+    "inTemporalPosition" : "tsnz:BaseClifdenianTime"
+  }, {
+    "@id" : "tsnz:BaseClifdenianTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "15.9"
+  }, {
+    "@id" : "tsnz:BaseDUrville",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of D'Urville"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of D'Urville"
+    },
+    "inTemporalPosition" : "tsnz:BaseDUrvilleTime"
+  }, {
+    "@id" : "tsnz:BaseDUrvilleTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "259.81"
+  }, {
+    "@id" : "tsnz:BaseDannevirke",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Dannevirke"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Dannevirke"
+    },
+    "inTemporalPosition" : "tsnz:BaseDannevirkeTime"
+  }, {
+    "@id" : "tsnz:BaseDannevirkeTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "66.04"
+  }, {
+    "@id" : "tsnz:BaseDarriwillian",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Darriwillian"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Darriwillian"
+    },
+    "inTemporalPosition" : "tsnz:BaseDarriwillianTime"
+  }, {
+    "@id" : "tsnz:BaseDarriwillianTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "467.25"
+  }, {
+    "@id" : "tsnz:BaseDatsonian",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Datsonian "
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Datsonian "
+    },
+    "inTemporalPosition" : "tsnz:BaseDatsonianTime"
+  }, {
+    "@id" : "tsnz:BaseDatsonianTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "486.73"
+  }, {
+    "@id" : "tsnz:BaseDuntroonian",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Duntroonian"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Duntroonian"
+    },
+    "inTemporalPosition" : "tsnz:BaseDuntroonianTime"
+  }, {
+    "@id" : "tsnz:BaseDuntroonianTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "27.3"
+  }, {
+    "@id" : "tsnz:BaseEarlyCambrian",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of EarlyCambrian"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of EarlyCambrian"
+    },
+    "inTemporalPosition" : "tsnz:BaseEarlyCambrianTime"
+  }, {
+    "@id" : "tsnz:BaseEarlyCambrianTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "541"
+  }, {
+    "@id" : "tsnz:BaseEarlyDevonian",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of EarlyDevonian"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of EarlyDevonian"
+    },
+    "inTemporalPosition" : "tsnz:BaseEarlyDevonianTime"
+  }, {
+    "@id" : "tsnz:BaseEarlyDevonianTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "419.2"
+  }, {
+    "@id" : "tsnz:BaseEarlyOrdovician",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of EarlyOrdovician"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of EarlyOrdovician"
+    },
+    "inTemporalPosition" : "tsnz:BaseEarlyOrdovicianTime"
+  }, {
+    "@id" : "tsnz:BaseEarlyOrdovicianTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "485.43"
+  }, {
+    "@id" : "tsnz:BaseEastonian",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Eastonian"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Eastonian"
+    },
+    "inTemporalPosition" : "tsnz:BaseEastonianTime"
+  }, {
+    "@id" : "tsnz:BaseEastonianTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "452.97"
+  }, {
+    "@id" : "tsnz:BaseEifelian",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Eifelian"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Eifelian"
+    },
+    "inTemporalPosition" : "tsnz:BaseEifelianTime"
+  }, {
+    "@id" : "tsnz:BaseEifelianTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "393.25"
+  }, {
+    "@id" : "tsnz:BaseEmsian",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Emsian"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Emsian"
+    },
+    "inTemporalPosition" : "tsnz:BaseEmsianTime"
+  }, {
+    "@id" : "tsnz:BaseEmsianTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "407.57"
+  }, {
+    "@id" : "tsnz:BaseEtalian",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Etalian"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Etalian"
+    },
+    "inTemporalPosition" : "tsnz:BaseEtalianTime"
+  }, {
+    "@id" : "tsnz:BaseEtalianTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "245.74"
+  }, {
+    "@id" : "tsnz:BaseFamennian",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Famennian"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Famennian"
+    },
+    "inTemporalPosition" : "tsnz:BaseFamennianTime"
+  }, {
+    "@id" : "tsnz:BaseFamennianTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "372.24"
+  }, {
+    "@id" : "tsnz:BaseFlettian",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Flettian"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Flettian"
+    },
+    "inTemporalPosition" : "tsnz:BaseFlettianTime"
+  }, {
+    "@id" : "tsnz:BaseFlettianTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "266"
+  }, {
+    "@id" : "tsnz:BaseFloran",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Floran"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Floran"
+    },
+    "inTemporalPosition" : "tsnz:BaseFloranTime"
+  }, {
+    "@id" : "tsnz:BaseFloranTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "504.26"
+  }, {
+    "@id" : "tsnz:BaseFrasnian",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Frasnian"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Frasnian"
+    },
+    "inTemporalPosition" : "tsnz:BaseFrasnianTime"
+  }, {
+    "@id" : "tsnz:BaseFrasnianTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "382.69"
+  }, {
+    "@id" : "tsnz:BaseFurongian",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Furongian"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Furongian"
+    },
+    "inTemporalPosition" : "tsnz:BaseFurongianTime"
+  }, {
+    "@id" : "tsnz:BaseFurongianTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "497"
+  }, {
+    "@id" : "tsnz:BaseGisbornian",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Gisbornian"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Gisbornian"
+    },
+    "inTemporalPosition" : "tsnz:BaseGisbornianTime"
+  }, {
+    "@id" : "tsnz:BaseGisbornianTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "458.36"
+  }, {
+    "@id" : "tsnz:BaseGivetian",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Givetian"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Givetian"
+    },
+    "inTemporalPosition" : "tsnz:BaseGivetianTime"
+  }, {
+    "@id" : "tsnz:BaseGivetianTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "387.72"
+  }, {
+    "@id" : "tsnz:BaseGore",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Gore"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Gore"
+    },
+    "inTemporalPosition" : "tsnz:BaseGoreTime"
+  }, {
+    "@id" : "tsnz:BaseGoreTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "250.86"
+  }, {
+    "@id" : "tsnz:BaseGorstian",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Gorstian"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Gorstian"
+    },
+    "inTemporalPosition" : "tsnz:BaseGorstianTime"
+  }, {
+    "@id" : "tsnz:BaseGorstianTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "427.36"
+  }, {
+    "@id" : "tsnz:BaseHaumurian",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Haumurian"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Haumurian"
+    },
+    "inTemporalPosition" : "tsnz:BaseHaumurianTime"
+  }, {
+    "@id" : "tsnz:BaseHaumurianTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "83.64"
+  }, {
+    "@id" : "tsnz:BaseHaweran",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Haweran"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Haweran"
+    },
+    "inTemporalPosition" : "tsnz:BaseHaweranTime"
+  }, {
+    "@id" : "tsnz:BaseHaweranTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "0.34"
+  }, {
+    "@id" : "tsnz:BaseHerangi",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Herangi"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Herangi"
+    },
+    "inTemporalPosition" : "tsnz:BaseHerangiTime"
+  }, {
+    "@id" : "tsnz:BaseHerangiTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "201.36"
+  }, {
+    "@id" : "tsnz:BaseHeretaungan",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Heretaungan"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Heretaungan"
+    },
+    "inTemporalPosition" : "tsnz:BaseHeretaunganTime"
+  }, {
+    "@id" : "tsnz:BaseHeretaunganTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "48.9"
+  }, {
+    "@id" : "tsnz:BaseHeterian",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Heterian"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Heterian"
+    },
+    "inTemporalPosition" : "tsnz:BaseHeterianTime"
+  }, {
+    "@id" : "tsnz:BaseHeterianTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "164.3"
+  }, {
+    "@id" : "tsnz:BaseHomerian",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Homerian"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Homerian"
+    },
+    "inTemporalPosition" : "tsnz:BaseHomerianTime"
+  }, {
+    "@id" : "tsnz:BaseHomerianTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "430.45"
+  }, {
+    "@id" : "tsnz:BaseIdamean",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Idamean"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Idamean"
+    },
+    "inTemporalPosition" : "tsnz:BaseIdameanTime"
+  }, {
+    "@id" : "tsnz:BaseIdameanTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "497"
+  }, {
+    "@id" : "tsnz:BaseIverian",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Iverian"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Iverian"
+    },
+    "inTemporalPosition" : "tsnz:BaseIverianTime"
+  }, {
+    "@id" : "tsnz:BaseIverianTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "494"
+  }, {
+    "@id" : "tsnz:BaseKaiatan",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Kaiatan"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Kaiatan"
+    },
+    "inTemporalPosition" : "tsnz:BaseKaiatanTime"
+  }, {
+    "@id" : "tsnz:BaseKaiatanTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "39.1"
+  }, {
+    "@id" : "tsnz:BaseKaihikuan",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Kaihikuan"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Kaihikuan"
+    },
+    "inTemporalPosition" : "tsnz:BaseKaihikuanTime"
+  }, {
+    "@id" : "tsnz:BaseKaihikuanTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "237.9"
+  }, {
+    "@id" : "tsnz:BaseKapitean",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Kapitean"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Kapitean"
+    },
+    "inTemporalPosition" : "tsnz:BaseKapiteanTime"
+  }, {
+    "@id" : "tsnz:BaseKapiteanTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "7.2"
+  }, {
+    "@id" : "tsnz:BaseKawhia",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Kawhia"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Kawhia"
+    },
+    "inTemporalPosition" : "tsnz:BaseKawhiaTime"
+  }, {
+    "@id" : "tsnz:BaseKawhiaTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "177.22"
+  }, {
+    "@id" : "tsnz:BaseKorangan",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Korangan"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Korangan"
+    },
+    "inTemporalPosition" : "tsnz:BaseKoranganTime"
+  }, {
+    "@id" : "tsnz:BaseKoranganTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "117.5"
+  }, {
+    "@id" : "tsnz:BaseLancefieldian",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Lancefieldian"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Lancefieldian"
+    },
+    "inTemporalPosition" : "tsnz:BaseLancefieldianTime"
+  }, {
+    "@id" : "tsnz:BaseLancefieldianTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "484.28"
+  }, {
+    "@id" : "tsnz:BaseLandon",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Landon"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Landon"
+    },
+    "inTemporalPosition" : "tsnz:BaseLandonTime"
+  }, {
+    "@id" : "tsnz:BaseLandonTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "34.6"
+  }, {
+    "@id" : "tsnz:BaseLateDevonian",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of LateDevonian"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of LateDevonian"
+    },
+    "inTemporalPosition" : "tsnz:BaseLateDevonianTime"
+  }, {
+    "@id" : "tsnz:BaseLateDevonianTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "382.69"
+  }, {
+    "@id" : "tsnz:BaseLateOrdovician",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of LateOrdovician"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of LateOrdovician"
+    },
+    "inTemporalPosition" : "tsnz:BaseLateOrdovicianTime"
+  }, {
+    "@id" : "tsnz:BaseLateOrdovicianTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "458.36"
+  }, {
+    "@id" : "tsnz:BaseLillburnian",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Lillburnian"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Lillburnian"
+    },
+    "inTemporalPosition" : "tsnz:BaseLillburnianTime"
+  }, {
+    "@id" : "tsnz:BaseLillburnianTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "15.1"
+  }, {
+    "@id" : "tsnz:BaseLlandovery",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Llandovery"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Llandovery"
+    },
+    "inTemporalPosition" : "tsnz:BaseLlandoveryTime"
+  }, {
+    "@id" : "tsnz:BaseLlandoveryTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "443.83"
+  }, {
+    "@id" : "tsnz:BaseLochkovian",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Lochkovian"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Lochkovian"
+    },
+    "inTemporalPosition" : "tsnz:BaseLochkovianTime"
+  }, {
+    "@id" : "tsnz:BaseLochkovianTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "419.2"
+  }, {
+    "@id" : "tsnz:BaseLudfordian",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Ludfordian"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Ludfordian"
+    },
+    "inTemporalPosition" : "tsnz:BaseLudfordianTime"
+  }, {
+    "@id" : "tsnz:BaseLudfordianTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "425.57"
+  }, {
+    "@id" : "tsnz:BaseLudlow",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Ludlow"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Ludlow"
+    },
+    "inTemporalPosition" : "tsnz:BaseLudlowTime"
+  }, {
+    "@id" : "tsnz:BaseLudlowTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "427.36"
+  }, {
+    "@id" : "tsnz:BaseMakarewan",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Makarewan"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Makarewan"
+    },
+    "inTemporalPosition" : "tsnz:BaseMakarewanTime"
+  }, {
+    "@id" : "tsnz:BaseMakarewanTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "253.05"
+  }, {
+    "@id" : "tsnz:BaseMalakovian",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Malakovian"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Malakovian"
+    },
+    "inTemporalPosition" : "tsnz:BaseMalakovianTime"
+  }, {
+    "@id" : "tsnz:BaseMalakovianTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "249.01"
+  }, {
+    "@id" : "tsnz:BaseMangaorapan",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Mangaorapan"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Mangaorapan"
+    },
+    "inTemporalPosition" : "tsnz:BaseMangaorapanTime"
+  }, {
+    "@id" : "tsnz:BaseMangaorapanTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "52"
+  }, {
+    "@id" : "tsnz:BaseMangaotanean",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Mangaotanean"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Mangaotanean"
+    },
+    "inTemporalPosition" : "tsnz:BaseMangaotaneanTime"
+  }, {
+    "@id" : "tsnz:BaseMangaotaneanTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "93.7"
+  }, {
+    "@id" : "tsnz:BaseMangapanian",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Mangapanian"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Mangapanian"
+    },
+    "inTemporalPosition" : "tsnz:BaseMangapanianTime"
+  }, {
+    "@id" : "tsnz:BaseMangapanianTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "3"
+  }, {
+    "@id" : "tsnz:BaseMangapirian",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Mangapirian"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Mangapirian"
+    },
+    "inTemporalPosition" : "tsnz:BaseMangapirianTime"
+  }, {
+    "@id" : "tsnz:BaseMangapirianTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "284.02"
+  }, {
+    "@id" : "tsnz:BaseMata",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Mata"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Mata"
+    },
+    "inTemporalPosition" : "tsnz:BaseMataTime"
+  }, {
+    "@id" : "tsnz:BaseMataTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "86.5"
+  }, {
+    "@id" : "tsnz:BaseMiddleCambrian",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of MiddleCambrian"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of MiddleCambrian"
+    },
+    "inTemporalPosition" : "tsnz:BaseMiddleCambrianTime"
+  }, {
+    "@id" : "tsnz:BaseMiddleCambrianTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "511.5"
+  }, {
+    "@id" : "tsnz:BaseMiddleDevonian",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of MiddleDevonian"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of MiddleDevonian"
+    },
+    "inTemporalPosition" : "tsnz:BaseMiddleDevonianTime"
+  }, {
+    "@id" : "tsnz:BaseMiddleDevonianTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "393.25"
+  }, {
+    "@id" : "tsnz:BaseMiddleOrdovician",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of MiddleOrdovician"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of MiddleOrdovician"
+    },
+    "inTemporalPosition" : "tsnz:BaseMiddleOrdovicianTime"
+  }, {
+    "@id" : "tsnz:BaseMiddleOrdovicianTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "470.42"
+  }, {
+    "@id" : "tsnz:BaseMindyallan",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Mindyallan"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Mindyallan"
+    },
+    "inTemporalPosition" : "tsnz:BaseMindyallanTime"
+  }, {
+    "@id" : "tsnz:BaseMindyallanTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "499.1"
+  }, {
+    "@id" : "tsnz:BaseMotuan",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Motuan"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Motuan"
+    },
+    "inTemporalPosition" : "tsnz:BaseMotuanTime"
+  }, {
+    "@id" : "tsnz:BaseMotuanTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "103.3"
+  }, {
+    "@id" : "tsnz:BaseNelsonian",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Nelsonian"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Nelsonian"
+    },
+    "inTemporalPosition" : "tsnz:BaseNelsonianTime"
+  }, {
+    "@id" : "tsnz:BaseNelsonianTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "250.86"
+  }, {
+    "@id" : "tsnz:BaseNgaterian",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Ngaterian"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Ngaterian"
+    },
+    "inTemporalPosition" : "tsnz:BaseNgaterianTime"
+  }, {
+    "@id" : "tsnz:BaseNgaterianTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "99.5"
+  }, {
+    "@id" : "tsnz:BaseNukumaruan",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Nukumaruan"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Nukumaruan"
+    },
+    "inTemporalPosition" : "tsnz:BaseNukumaruanTime"
+  }, {
+    "@id" : "tsnz:BaseNukumaruanTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "2.4"
+  }, {
+    "@id" : "tsnz:BaseOhauan",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Ohauan"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Ohauan"
+    },
+    "inTemporalPosition" : "tsnz:BaseOhauanTime"
+  }, {
+    "@id" : "tsnz:BaseOhauanTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "154.49"
+  }, {
+    "@id" : "tsnz:BaseOpoitian",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Opoitian"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Opoitian"
+    },
+    "inTemporalPosition" : "tsnz:BaseOpoitianTime"
+  }, {
+    "@id" : "tsnz:BaseOpoitianTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "5.33"
+  }, {
+    "@id" : "tsnz:BaseOrdian",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Ordian"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Ordian"
+    },
+    "inTemporalPosition" : "tsnz:BaseOrdianTime"
+  }, {
+    "@id" : "tsnz:BaseOrdianTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "511.5"
+  }, {
+    "@id" : "tsnz:BaseOretian",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Oretian"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Oretian"
+    },
+    "inTemporalPosition" : "tsnz:BaseOretianTime"
+  }, {
+    "@id" : "tsnz:BaseOretianTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "228.95"
+  }, {
+    "@id" : "tsnz:BaseOtaian",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Otaian"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Otaian"
+    },
+    "inTemporalPosition" : "tsnz:BaseOtaianTime"
+  }, {
+    "@id" : "tsnz:BaseOtaianTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "21.7"
+  }, {
+    "@id" : "tsnz:BaseOtamitan",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Otamitan"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Otamitan"
+    },
+    "inTemporalPosition" : "tsnz:BaseOtamitanTime"
+  }, {
+    "@id" : "tsnz:BaseOtamitanTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "221"
+  }, {
+    "@id" : "tsnz:BaseOtapirian",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Otapirian"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Otapirian"
+    },
+    "inTemporalPosition" : "tsnz:BaseOtapirianTime"
+  }, {
+    "@id" : "tsnz:BaseOtapirianTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "209.56"
+  }, {
+    "@id" : "tsnz:BaseOteke",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Oteke"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Oteke"
+    },
+    "inTemporalPosition" : "tsnz:BaseOtekeTime"
+  }, {
+    "@id" : "tsnz:BaseOtekeTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "150.02"
+  }, {
+    "@id" : "tsnz:BasePareora",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Pareora"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Pareora"
+    },
+    "inTemporalPosition" : "tsnz:BasePareoraTime"
+  }, {
+    "@id" : "tsnz:BasePareoraTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "21.7"
+  }, {
+    "@id" : "tsnz:BasePayntonian",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Payntonian"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Payntonian"
+    },
+    "inTemporalPosition" : "tsnz:BasePayntonianTime"
+  }, {
+    "@id" : "tsnz:BasePayntonianTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "489.5"
+  }, {
+    "@id" : "tsnz:BasePiripauan",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Piripauan"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Piripauan"
+    },
+    "inTemporalPosition" : "tsnz:BasePiripauanTime"
+  }, {
+    "@id" : "tsnz:BasePiripauanTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "86.5"
+  }, {
+    "@id" : "tsnz:BasePorangan",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Porangan"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Porangan"
+    },
+    "inTemporalPosition" : "tsnz:BasePoranganTime"
+  }, {
+    "@id" : "tsnz:BasePoranganTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "45.7"
+  }, {
+    "@id" : "tsnz:BasePragian",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Pragian"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Pragian"
+    },
+    "inTemporalPosition" : "tsnz:BasePragianTime"
+  }, {
+    "@id" : "tsnz:BasePragianTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "410.78"
+  }, {
+    "@id" : "tsnz:BasePridoli",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Pridoli"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Pridoli"
+    },
+    "inTemporalPosition" : "tsnz:BasePridoliTime"
+  }, {
+    "@id" : "tsnz:BasePridoliTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "422.96"
+  }, {
+    "@id" : "tsnz:BasePuaroan",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Puaroan"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Puaroan"
+    },
+    "inTemporalPosition" : "tsnz:BasePuaroanTime"
+  }, {
+    "@id" : "tsnz:BasePuaroanTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "150.02"
+  }, {
+    "@id" : "tsnz:BasePuruhauan",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Puruhauan"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Puruhauan"
+    },
+    "inTemporalPosition" : "tsnz:BasePuruhauanTime"
+  }, {
+    "@id" : "tsnz:BasePuruhauanTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "259.81"
+  }, {
+    "@id" : "tsnz:BaseRaukumara",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Raukumara"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Raukumara"
+    },
+    "inTemporalPosition" : "tsnz:BaseRaukumaraTime"
+  }, {
+    "@id" : "tsnz:BaseRaukumaraTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "95.5"
+  }, {
+    "@id" : "tsnz:BaseRhuddanian",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Rhuddanian"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Rhuddanian"
+    },
+    "inTemporalPosition" : "tsnz:BaseRhuddanianTime"
+  }, {
+    "@id" : "tsnz:BaseRhuddanianTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "443.83"
+  }, {
+    "@id" : "tsnz:BaseRunangan",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Runangan"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Runangan"
+    },
+    "inTemporalPosition" : "tsnz:BaseRunanganTime"
+  }, {
+    "@id" : "tsnz:BaseRunanganTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "36.7"
+  }, {
+    "@id" : "tsnz:BaseSheinwoodian",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Sheinwoodian"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Sheinwoodian"
+    },
+    "inTemporalPosition" : "tsnz:BaseSheinwoodianTime"
+  }, {
+    "@id" : "tsnz:BaseSheinwoodianTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "433.35"
+  }, {
+    "@id" : "tsnz:BaseSouthland",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Southland"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Southland"
+    },
+    "inTemporalPosition" : "tsnz:BaseSouthlandTime"
+  }, {
+    "@id" : "tsnz:BaseSouthlandTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "15.9"
+  }, {
+    "@id" : "tsnz:BaseTaitai",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Taitai"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Taitai"
+    },
+    "inTemporalPosition" : "tsnz:BaseTaitaiTime"
+  }, {
+    "@id" : "tsnz:BaseTaitaiTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "145.7"
+  }, {
+    "@id" : "tsnz:BaseTaranaki",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Taranaki"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Taranaki"
+    },
+    "inTemporalPosition" : "tsnz:BaseTaranakiTime"
+  }, {
+    "@id" : "tsnz:BaseTaranakiTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "11.04"
+  }, {
+    "@id" : "tsnz:BaseTelfordian",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Telfordian"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Telfordian"
+    },
+    "inTemporalPosition" : "tsnz:BaseTelfordianTime"
+  }, {
+    "@id" : "tsnz:BaseTelfordianTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "288.05"
+  }, {
+    "@id" : "tsnz:BaseTelychian",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Telychian"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Telychian"
+    },
+    "inTemporalPosition" : "tsnz:BaseTelychianTime"
+  }, {
+    "@id" : "tsnz:BaseTelychianTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "438.49"
+  }, {
+    "@id" : "tsnz:BaseTemaikan",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Temaikan"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Temaikan"
+    },
+    "inTemporalPosition" : "tsnz:BaseTemaikanTime"
+  }, {
+    "@id" : "tsnz:BaseTemaikanTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "177.22"
+  }, {
+    "@id" : "tsnz:BaseTempletonian",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Templetonian"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Templetonian"
+    },
+    "inTemporalPosition" : "tsnz:BaseTempletonianTime"
+  }, {
+    "@id" : "tsnz:BaseTempletonianTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "507.96"
+  }, {
+    "@id" : "tsnz:BaseTeratan",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Teratan"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Teratan"
+    },
+    "inTemporalPosition" : "tsnz:BaseTeratanTime"
+  }, {
+    "@id" : "tsnz:BaseTeratanTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "89.77"
+  }, {
+    "@id" : "tsnz:BaseTeurian",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Teurian"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Teurian"
+    },
+    "inTemporalPosition" : "tsnz:BaseTeurianTime"
+  }, {
+    "@id" : "tsnz:BaseTeurianTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "66.04"
+  }, {
+    "@id" : "tsnz:BaseTongaporutuan",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Tongaporutuan"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Tongaporutuan"
+    },
+    "inTemporalPosition" : "tsnz:BaseTongaporutuanTime"
+  }, {
+    "@id" : "tsnz:BaseTongaporutuanTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "11.04"
+  }, {
+    "@id" : "tsnz:BaseUndillian",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Undillian"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Undillian"
+    },
+    "inTemporalPosition" : "tsnz:BaseUndillianTime"
+  }, {
+    "@id" : "tsnz:BaseUndillianTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "502.98"
+  }, {
+    "@id" : "tsnz:BaseUruroan",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Ururoan"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Ururoan"
+    },
+    "inTemporalPosition" : "tsnz:BaseUruroanTime"
+  }, {
+    "@id" : "tsnz:BaseUruroanTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "189.83"
+  }, {
+    "@id" : "tsnz:BaseUrutawan",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Urutawan"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Urutawan"
+    },
+    "inTemporalPosition" : "tsnz:BaseUrutawanTime"
+  }, {
+    "@id" : "tsnz:BaseUrutawanTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "108.4"
+  }, {
+    "@id" : "tsnz:BaseWaiauan",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Waiauan"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Waiauan"
+    },
+    "inTemporalPosition" : "tsnz:BaseWaiauanTime"
+  }, {
+    "@id" : "tsnz:BaseWaiauanTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "13.05"
+  }, {
+    "@id" : "tsnz:BaseWaiitian",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Waiitian"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Waiitian"
+    },
+    "inTemporalPosition" : "tsnz:BaseWaiitianTime"
+  }, {
+    "@id" : "tsnz:BaseWaiitianTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "254.2"
+  }, {
+    "@id" : "tsnz:BaseWaipawan",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Waipawan"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Waipawan"
+    },
+    "inTemporalPosition" : "tsnz:BaseWaipawanTime"
+  }, {
+    "@id" : "tsnz:BaseWaipawanTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "55.96"
+  }, {
+    "@id" : "tsnz:BaseWaipipian",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Waipipian"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Waipipian"
+    },
+    "inTemporalPosition" : "tsnz:BaseWaipipianTime"
+  }, {
+    "@id" : "tsnz:BaseWaipipianTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "3.7"
+  }, {
+    "@id" : "tsnz:BaseWaitakian",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Waitakian"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Waitakian"
+    },
+    "inTemporalPosition" : "tsnz:BaseWaitakianTime"
+  }, {
+    "@id" : "tsnz:BaseWaitakianTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "25.2"
+  }, {
+    "@id" : "tsnz:BaseWanganui",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Wanganui"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Wanganui"
+    },
+    "inTemporalPosition" : "tsnz:BaseWanganuiTime"
+  }, {
+    "@id" : "tsnz:BaseWanganuiTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "5.33"
+  }, {
+    "@id" : "tsnz:BaseWarendian",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Warendian"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Warendian"
+    },
+    "inTemporalPosition" : "tsnz:BaseWarendianTime"
+  }, {
+    "@id" : "tsnz:BaseWarendianTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "485.43"
+  }, {
+    "@id" : "tsnz:BaseWarepan",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Warepan"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Warepan"
+    },
+    "inTemporalPosition" : "tsnz:BaseWarepanTime"
+  }, {
+    "@id" : "tsnz:BaseWarepanTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "217"
+  }, {
+    "@id" : "tsnz:BaseWenlock",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Wenlock"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Wenlock"
+    },
+    "inTemporalPosition" : "tsnz:BaseWenlockTime"
+  }, {
+    "@id" : "tsnz:BaseWenlockTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "433.35"
+  }, {
+    "@id" : "tsnz:BaseWhaingaroan",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Whaingaroan"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Whaingaroan"
+    },
+    "inTemporalPosition" : "tsnz:BaseWhaingaroanTime"
+  }, {
+    "@id" : "tsnz:BaseWhaingaroanTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "34.6"
+  }, {
+    "@id" : "tsnz:BaseYapeenian",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of Yapeenian"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of Yapeenian"
+    },
+    "inTemporalPosition" : "tsnz:BaseYapeenianTime"
+  }, {
+    "@id" : "tsnz:BaseYapeenianTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "468.31"
+  }, {
+    "@id" : "tsnz:Basepre-Telfordian",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Base of pre-Telfordian"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Base of pre-Telfordian"
+    },
+    "inTemporalPosition" : "tsnz:Basepre-TelfordianTime"
+  }, {
+    "@id" : "tsnz:Basepre-TelfordianTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "298.88"
+  }, {
+    "@id" : "tsnz:Bendigonian",
+    "@type" : [ "time:ProperInterval", "gts:Age", "skos:Concept", "gts:GeochronologicEra" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Bendigonian Age"
+    },
+    "broader" : "tsnz:EarlyOrdovician",
+    "broaderTransitive" : [ "isc:Ordovician", "isc:Paleozoic", "isc:Phanerozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseBendigonian",
+    "hasEnd" : "tsnz:BaseChewtonian"
+  }, {
+    "@id" : "tsnz:Bolindian",
+    "@type" : [ "time:ProperInterval", "gts:GeochronologicEra", "gts:Age", "skos:Concept" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Bolindian Age"
+    },
+    "broader" : "tsnz:LateOrdovician",
+    "broaderTransitive" : [ "isc:Ordovician", "isc:Paleozoic", "isc:Phanerozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseBolindian",
+    "hasEnd" : "tsnz:BaseRhuddanian"
+  }, {
+    "@id" : "tsnz:Boomerangian",
+    "@type" : [ "gts:GeochronologicEra", "skos:Concept", "gts:Age", "time:ProperInterval" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Boomerangian Age"
+    },
+    "broader" : "tsnz:MiddleCambrian",
+    "broaderTransitive" : [ "isc:Cambrian", "isc:Phanerozoic", "isc:Paleozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseBoomerangian",
+    "hasEnd" : "tsnz:BaseMindyallan"
+  }, {
+    "@id" : "tsnz:Bortonian",
+    "@type" : [ "gts:GeochronologicEra", "time:ProperInterval", "skos:Concept", "gts:Age" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Bortonian Age"
+    },
+    "broader" : "tsnz:Arnold",
+    "broaderTransitive" : [ "isc:Cenozoic", "isc:Phanerozoic", "isc:Paleogene" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseBortonian",
+    "hasEnd" : "tsnz:BaseKaiatan"
+  }, {
+    "@id" : "tsnz:Castlecliffian",
+    "@type" : [ "time:ProperInterval", "gts:GeochronologicEra", "skos:Concept", "gts:Age" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Castlecliffian Age"
+    },
+    "broader" : "tsnz:Wanganui",
+    "broaderTransitive" : [ "isc:Phanerozoic", "isc:Cenozoic", "isc:Quaternary" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseCastlecliffian",
+    "hasEnd" : "tsnz:BaseHaweran"
+  }, {
+    "@id" : "tsnz:Castlemainian",
+    "@type" : [ "time:ProperInterval", "gts:Age", "gts:GeochronologicEra", "skos:Concept" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Castlemainian Age"
+    },
+    "broader" : "tsnz:MiddleOrdovician",
+    "broaderTransitive" : [ "isc:Phanerozoic", "isc:Ordovician", "isc:Paleozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseCastlemainian",
+    "hasEnd" : "tsnz:BaseYapeenian"
+  }, {
+    "@id" : "tsnz:Chewtonian",
+    "@type" : [ "gts:Age", "skos:Concept", "time:ProperInterval", "gts:GeochronologicEra" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Chewtonian Age"
+    },
+    "broader" : "tsnz:EarlyOrdovician",
+    "broaderTransitive" : [ "isc:Ordovician", "isc:Phanerozoic", "isc:Paleozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseChewtonian",
+    "hasEnd" : "tsnz:BaseCastlemainian"
+  }, {
+    "@id" : "tsnz:Clarence",
+    "@type" : [ "gts:Epoch", "gts:GeochronologicEra", "skos:Concept", "time:ProperInterval" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Clarence Epoch"
+    },
+    "broader" : "isc:Cretaceous",
+    "broaderTransitive" : [ "isc:Phanerozoic", "isc:Mesozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseClarence",
+    "hasEnd" : "tsnz:BaseRaukumara"
+  }, {
+    "@id" : "tsnz:Clifdenian",
+    "@type" : [ "gts:GeochronologicEra", "time:ProperInterval", "skos:Concept", "gts:Age" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Clifdenian Age"
+    },
+    "broader" : "tsnz:Southland",
+    "broaderTransitive" : [ "isc:Neogene", "isc:Cenozoic", "isc:Phanerozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseClifdenian",
+    "hasEnd" : "tsnz:BaseLillburnian"
+  }, {
+    "@id" : "tsnz:DUrville",
+    "@type" : [ "time:ProperInterval", "gts:GeochronologicEra", "skos:Concept", "gts:Epoch" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "D'Urville Epoch"
+    },
+    "broader" : "isc:Permian",
+    "broaderTransitive" : [ "isc:Phanerozoic", "isc:Paleozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseDUrville",
+    "hasEnd" : "tsnz:BaseGore"
+  }, {
+    "@id" : "tsnz:Dannevirke",
+    "@type" : [ "gts:Epoch", "skos:Concept", "gts:GeochronologicEra", "time:ProperInterval" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Dannevirke Epoch"
+    },
+    "broader" : "isc:Paleogene",
+    "broaderTransitive" : [ "isc:Phanerozoic", "isc:Cenozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseDannevirke",
+    "hasEnd" : "tsnz:BaseArnold"
+  }, {
+    "@id" : "tsnz:Darriwillian",
+    "@type" : [ "time:ProperInterval", "gts:GeochronologicEra", "skos:Concept", "gts:Age" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Darriwillian Age"
+    },
+    "broader" : "tsnz:MiddleOrdovician",
+    "broaderTransitive" : [ "isc:Paleozoic", "isc:Ordovician", "isc:Phanerozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseDarriwillian",
+    "hasEnd" : "tsnz:BaseGisbornian"
+  }, {
+    "@id" : "tsnz:Datsonian",
+    "@type" : [ "gts:GeochronologicEra", "time:ProperInterval", "gts:Age", "skos:Concept" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Datsonian  Age"
+    },
+    "broader" : "tsnz:Furongian",
+    "broaderTransitive" : [ "isc:Cambrian", "isc:Paleozoic", "isc:Phanerozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseDatsonian",
+    "hasEnd" : "tsnz:BaseWarendian"
+  }, {
+    "@id" : "tsnz:Duntroonian",
+    "@type" : [ "gts:Age", "time:ProperInterval", "gts:GeochronologicEra", "skos:Concept" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Duntroonian Age"
+    },
+    "broader" : "tsnz:Landon",
+    "broaderTransitive" : [ "isc:Paleogene", "isc:Cenozoic", "isc:Phanerozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseDuntroonian",
+    "hasEnd" : "tsnz:BaseWaitakian"
+  }, {
+    "@id" : "tsnz:EarlyCambrian",
+    "@type" : [ "gts:Epoch", "gts:GeochronologicEra", "time:ProperInterval", "skos:Concept" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "EarlyCambrian Epoch"
+    },
+    "broader" : "isc:Cambrian",
+    "broaderTransitive" : [ "isc:Phanerozoic", "isc:Paleozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseEarlyCambrian",
+    "hasEnd" : "tsnz:BaseMiddleCambrian"
+  }, {
+    "@id" : "tsnz:EarlyDevonian",
+    "@type" : [ "skos:Concept", "time:ProperInterval", "gts:GeochronologicEra", "gts:Epoch" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "EarlyDevonian Epoch"
+    },
+    "broader" : "isc:Devonian",
+    "broaderTransitive" : [ "isc:Paleozoic", "isc:Phanerozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseEarlyDevonian",
+    "hasEnd" : "tsnz:BaseMiddleDevonian"
+  }, {
+    "@id" : "tsnz:EarlyOrdovician",
+    "@type" : [ "time:ProperInterval", "skos:Concept", "gts:GeochronologicEra", "gts:Epoch" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "EarlyOrdovician Epoch"
+    },
+    "broader" : "isc:Ordovician",
+    "broaderTransitive" : [ "isc:Phanerozoic", "isc:Paleozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseEarlyOrdovician",
+    "hasEnd" : "tsnz:BaseMiddleOrdovician"
+  }, {
+    "@id" : "tsnz:Eastonian",
+    "@type" : [ "gts:GeochronologicEra", "gts:Age", "skos:Concept", "time:ProperInterval" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Eastonian Age"
+    },
+    "broader" : "tsnz:LateOrdovician",
+    "broaderTransitive" : [ "isc:Phanerozoic", "isc:Paleozoic", "isc:Ordovician" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseEastonian",
+    "hasEnd" : "tsnz:BaseBolindian"
+  }, {
+    "@id" : "tsnz:Eifelian",
+    "@type" : [ "gts:GeochronologicEra", "skos:Concept", "gts:Age", "time:ProperInterval" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Eifelian Age"
+    },
+    "broader" : "tsnz:MiddleDevonian",
+    "broaderTransitive" : [ "isc:Devonian", "isc:Phanerozoic", "isc:Paleozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseEifelian",
+    "hasEnd" : "tsnz:BaseGivetian"
+  }, {
+    "@id" : "tsnz:Emsian",
+    "@type" : [ "gts:Age", "skos:Concept", "gts:GeochronologicEra", "time:ProperInterval" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Emsian Age"
+    },
+    "broader" : "tsnz:EarlyDevonian",
+    "broaderTransitive" : [ "isc:Devonian", "isc:Phanerozoic", "isc:Paleozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseEmsian",
+    "hasEnd" : "tsnz:BaseEifelian"
+  }, {
+    "@id" : "tsnz:Etalian",
+    "@type" : [ "time:ProperInterval", "skos:Concept", "gts:Age", "gts:GeochronologicEra" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Etalian Age"
+    },
+    "broader" : "tsnz:Gore",
+    "broaderTransitive" : [ "isc:Mesozoic", "isc:Triassic", "isc:Phanerozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseEtalian",
+    "hasEnd" : "tsnz:BaseKaihikuan"
+  }, {
+    "@id" : "tsnz:Famennian",
+    "@type" : [ "time:ProperInterval", "gts:GeochronologicEra", "gts:Age", "skos:Concept" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Famennian Age"
+    },
+    "broader" : "tsnz:LateDevonian",
+    "broaderTransitive" : [ "isc:Devonian", "isc:Paleozoic", "isc:Phanerozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseFamennian",
+    "hasEnd" : "tsnz:TopFamennian"
+  }, {
+    "@id" : "tsnz:Flettian",
+    "@type" : [ "time:ProperInterval", "gts:Age", "gts:GeochronologicEra", "skos:Concept" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Flettian Age"
+    },
+    "broader" : "tsnz:Aparima",
+    "broaderTransitive" : [ "isc:Permian", "isc:Paleozoic", "isc:Phanerozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseFlettian",
+    "hasEnd" : "tsnz:BasePuruhauan"
+  }, {
+    "@id" : "tsnz:Floran",
+    "@type" : [ "gts:Age", "gts:GeochronologicEra", "skos:Concept", "time:ProperInterval" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Floran Age"
+    },
+    "broader" : "tsnz:MiddleCambrian",
+    "broaderTransitive" : [ "isc:Paleozoic", "isc:Phanerozoic", "isc:Cambrian" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseFloran",
+    "hasEnd" : "tsnz:BaseUndillian"
+  }, {
+    "@id" : "tsnz:Frasnian",
+    "@type" : [ "gts:Age", "skos:Concept", "gts:GeochronologicEra", "time:ProperInterval" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Frasnian Age"
+    },
+    "broader" : "tsnz:LateDevonian",
+    "broaderTransitive" : [ "isc:Devonian", "isc:Phanerozoic", "isc:Paleozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseFrasnian",
+    "hasEnd" : "tsnz:BaseFamennian"
+  }, {
+    "@id" : "tsnz:Furongian",
+    "@type" : [ "gts:GeochronologicEra", "time:ProperInterval", "skos:Concept", "gts:Epoch" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Furongian Epoch"
+    },
+    "broader" : "isc:Cambrian",
+    "broaderTransitive" : [ "isc:Paleozoic", "isc:Phanerozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseFurongian",
+    "hasEnd" : "tsnz:BaseEarlyOrdovician"
+  }, {
+    "@id" : "tsnz:Gisbornian",
+    "@type" : [ "time:ProperInterval", "skos:Concept", "gts:GeochronologicEra", "gts:Age" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Gisbornian Age"
+    },
+    "broader" : "tsnz:LateOrdovician",
+    "broaderTransitive" : [ "isc:Ordovician", "isc:Paleozoic", "isc:Phanerozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseGisbornian",
+    "hasEnd" : "tsnz:BaseEastonian"
+  }, {
+    "@id" : "tsnz:Givetian",
+    "@type" : [ "skos:Concept", "time:ProperInterval", "gts:Age", "gts:GeochronologicEra" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Givetian Age"
+    },
+    "broader" : "tsnz:MiddleDevonian",
+    "broaderTransitive" : [ "isc:Phanerozoic", "isc:Devonian", "isc:Paleozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseGivetian",
+    "hasEnd" : "tsnz:BaseFrasnian"
+  }, {
+    "@id" : "tsnz:Gore",
+    "@type" : [ "gts:GeochronologicEra", "skos:Concept", "gts:Epoch", "time:ProperInterval" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Gore Epoch"
+    },
+    "broader" : "isc:Triassic",
+    "broaderTransitive" : [ "isc:Mesozoic", "isc:Phanerozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseGore",
+    "hasEnd" : "tsnz:BaseBalfour"
+  }, {
+    "@id" : "tsnz:Gorstian",
+    "@type" : [ "gts:Age", "skos:Concept", "gts:GeochronologicEra", "time:ProperInterval" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Gorstian Age"
+    },
+    "broader" : "tsnz:LudlowDevonian",
+    "broaderTransitive" : [ "isc:Paleozoic", "isc:Phanerozoic", "isc:Silurian" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseGorstian",
+    "hasEnd" : "tsnz:BaseLudfordian"
+  }, {
+    "@id" : "tsnz:Haumurian",
+    "@type" : [ "gts:Age", "time:ProperInterval", "skos:Concept", "gts:GeochronologicEra" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Haumurian Age"
+    },
+    "broader" : "tsnz:Mata",
+    "broaderTransitive" : [ "isc:Phanerozoic", "isc:Mesozoic", "isc:Cretaceous" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseHaumurian",
+    "hasEnd" : "tsnz:BaseTeurian"
+  }, {
+    "@id" : "tsnz:Haweran",
+    "@type" : [ "time:ProperInterval", "gts:Age", "skos:Concept", "gts:GeochronologicEra" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Haweran Age"
+    },
+    "broader" : "tsnz:Wanganui",
+    "broaderTransitive" : [ "isc:Phanerozoic", "isc:Cenozoic", "isc:Quaternary" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseHaweran",
+    "hasEnd" : "tsnz:TopHaweran"
+  }, {
+    "@id" : "tsnz:Herangi",
+    "@type" : [ "skos:Concept", "gts:Epoch", "gts:GeochronologicEra", "time:ProperInterval" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Herangi Epoch"
+    },
+    "broader" : "isc:Jurassic",
+    "broaderTransitive" : [ "isc:Phanerozoic", "isc:Mesozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseHerangi",
+    "hasEnd" : "tsnz:BaseKawhia"
+  }, {
+    "@id" : "tsnz:Heretaungan",
+    "@type" : [ "gts:Age", "gts:GeochronologicEra", "time:ProperInterval", "skos:Concept" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Heretaungan Age"
+    },
+    "broader" : "tsnz:Dannevirke",
+    "broaderTransitive" : [ "isc:Cenozoic", "isc:Paleogene", "isc:Phanerozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseHeretaungan",
+    "hasEnd" : "tsnz:BasePorangan"
+  }, {
+    "@id" : "tsnz:Heterian",
+    "@type" : [ "time:ProperInterval", "gts:GeochronologicEra", "skos:Concept", "gts:Age" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Heterian Age"
+    },
+    "broader" : "tsnz:Kawhia",
+    "broaderTransitive" : [ "isc:Jurassic", "isc:Mesozoic", "isc:Phanerozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseHeterian",
+    "hasEnd" : "tsnz:BaseOhauan"
+  }, {
+    "@id" : "tsnz:Homerian",
+    "@type" : [ "gts:GeochronologicEra", "skos:Concept", "gts:Age", "time:ProperInterval" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Homerian Age"
+    },
+    "broader" : "tsnz:Wenlock",
+    "broaderTransitive" : [ "isc:Phanerozoic", "isc:Paleozoic", "isc:Silurian" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseHomerian",
+    "hasEnd" : "tsnz:BaseGorstian"
+  }, {
+    "@id" : "tsnz:Idamean",
+    "@type" : [ "time:ProperInterval", "gts:Age", "gts:GeochronologicEra", "skos:Concept" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Idamean Age"
+    },
+    "broader" : "tsnz:Furongian",
+    "broaderTransitive" : [ "isc:Paleozoic", "isc:Phanerozoic", "isc:Cambrian" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseIdamean",
+    "hasEnd" : "tsnz:BaseIverian"
+  }, {
+    "@id" : "tsnz:Iverian",
+    "@type" : [ "gts:Age", "time:ProperInterval", "skos:Concept", "gts:GeochronologicEra" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Iverian Age"
+    },
+    "broader" : "tsnz:Furongian",
+    "broaderTransitive" : [ "isc:Cambrian", "isc:Paleozoic", "isc:Phanerozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseIverian",
+    "hasEnd" : "tsnz:BasePayntonian"
+  }, {
+    "@id" : "tsnz:Kaiatan",
+    "@type" : [ "time:ProperInterval", "gts:Age", "gts:GeochronologicEra", "skos:Concept" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Kaiatan Age"
+    },
+    "broader" : "tsnz:Arnold",
+    "broaderTransitive" : [ "isc:Phanerozoic", "isc:Paleogene", "isc:Cenozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseKaiatan",
+    "hasEnd" : "tsnz:BaseRunangan"
+  }, {
+    "@id" : "tsnz:Kaihikuan",
+    "@type" : [ "time:ProperInterval", "gts:GeochronologicEra", "gts:Age", "skos:Concept" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Kaihikuan Age"
+    },
+    "broader" : "tsnz:Gore",
+    "broaderTransitive" : [ "isc:Mesozoic", "isc:Triassic", "isc:Phanerozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseKaihikuan",
+    "hasEnd" : "tsnz:BaseOretian"
+  }, {
+    "@id" : "tsnz:Kapitean",
+    "@type" : [ "time:ProperInterval", "gts:Age", "skos:Concept", "gts:GeochronologicEra" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Kapitean Age"
+    },
+    "broader" : "tsnz:Taranaki",
+    "broaderTransitive" : [ "isc:Cenozoic", "isc:Phanerozoic", "isc:Neogene" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseKapitean",
+    "hasEnd" : "tsnz:BaseOpoitian"
+  }, {
+    "@id" : "tsnz:Kawhia",
+    "@type" : [ "gts:GeochronologicEra", "gts:Epoch", "time:ProperInterval", "skos:Concept" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Kawhia Epoch"
+    },
+    "broader" : "isc:Jurassic",
+    "broaderTransitive" : [ "isc:Mesozoic", "isc:Phanerozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseKawhia",
+    "hasEnd" : "tsnz:BaseOteke"
+  }, {
+    "@id" : "tsnz:Korangan",
+    "@type" : [ "time:ProperInterval", "skos:Concept", "gts:Age", "gts:GeochronologicEra" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Korangan Age"
+    },
+    "broader" : "tsnz:Taitai",
+    "broaderTransitive" : [ "isc:Mesozoic", "isc:Cretaceous", "isc:Phanerozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseKorangan",
+    "hasEnd" : "tsnz:BaseUrutawan"
+  }, {
+    "@id" : "tsnz:Lancefieldian",
+    "@type" : [ "gts:GeochronologicEra", "gts:Age", "skos:Concept", "time:ProperInterval" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Lancefieldian Age"
+    },
+    "broader" : "tsnz:EarlyOrdovician",
+    "broaderTransitive" : [ "isc:Ordovician", "isc:Phanerozoic", "isc:Paleozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseLancefieldian",
+    "hasEnd" : "tsnz:BaseBendigonian"
+  }, {
+    "@id" : "tsnz:Landon",
+    "@type" : [ "gts:Epoch", "gts:GeochronologicEra", "time:ProperInterval", "skos:Concept" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Landon Epoch"
+    },
+    "broader" : "isc:Paleogene",
+    "broaderTransitive" : [ "isc:Cenozoic", "isc:Phanerozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseLandon",
+    "hasEnd" : "tsnz:BasePareora"
+  }, {
+    "@id" : "tsnz:LateDevonian",
+    "@type" : [ "gts:Epoch", "time:ProperInterval", "skos:Concept", "gts:GeochronologicEra" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "LateDevonian Epoch"
+    },
+    "broader" : "isc:Devonian",
+    "broaderTransitive" : [ "isc:Paleozoic", "isc:Phanerozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseLateDevonian",
+    "hasEnd" : "tsnz:TopLateDevonian"
+  }, {
+    "@id" : "tsnz:LateOrdovician",
+    "@type" : [ "time:ProperInterval", "skos:Concept", "gts:GeochronologicEra", "gts:Epoch" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "LateOrdovician Epoch"
+    },
+    "broader" : "isc:Ordovician",
+    "broaderTransitive" : [ "isc:Paleozoic", "isc:Phanerozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseLateOrdovician",
+    "hasEnd" : "tsnz:BaseLlandovery"
+  }, {
+    "@id" : "tsnz:Lillburnian",
+    "@type" : [ "time:ProperInterval", "skos:Concept", "gts:Age", "gts:GeochronologicEra" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Lillburnian Age"
+    },
+    "broader" : "tsnz:Southland",
+    "broaderTransitive" : [ "isc:Phanerozoic", "isc:Cenozoic", "isc:Neogene" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseLillburnian",
+    "hasEnd" : "tsnz:BaseWaiauan"
+  }, {
+    "@id" : "tsnz:Llandovery",
+    "@type" : [ "skos:Concept", "gts:GeochronologicEra", "time:ProperInterval", "gts:Epoch" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Llandovery Epoch"
+    },
+    "broader" : "isc:Silurian",
+    "broaderTransitive" : [ "isc:Phanerozoic", "isc:Paleozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseLlandovery",
+    "hasEnd" : "tsnz:BaseWenlock"
+  }, {
+    "@id" : "tsnz:Lochkovian",
+    "@type" : [ "gts:Age", "gts:GeochronologicEra", "skos:Concept", "time:ProperInterval" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Lochkovian Age"
+    },
+    "broader" : "tsnz:EarlyDevonian",
+    "broaderTransitive" : [ "isc:Paleozoic", "isc:Devonian", "isc:Phanerozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseLochkovian",
+    "hasEnd" : "tsnz:BasePragian"
+  }, {
+    "@id" : "tsnz:Ludfordian",
+    "@type" : [ "skos:Concept", "gts:Age", "time:ProperInterval", "gts:GeochronologicEra" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Ludfordian Age"
+    },
+    "broader" : "tsnz:LudlowDevonian",
+    "broaderTransitive" : [ "isc:Silurian", "isc:Phanerozoic", "isc:Paleozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseLudfordian",
+    "hasEnd" : "tsnz:BaseLochkovian"
+  }, {
+    "@id" : "tsnz:Ludlow",
+    "@type" : [ "time:ProperInterval", "gts:GeochronologicEra", "gts:Epoch", "skos:Concept" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Ludlow Epoch"
+    },
+    "broader" : "isc:Silurian",
+    "broaderTransitive" : [ "isc:Phanerozoic", "isc:Paleozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseLudlow",
+    "hasEnd" : "tsnz:BasePridoli"
+  }, {
+    "@id" : "tsnz:Makarewan",
+    "@type" : [ "time:ProperInterval", "gts:Age", "skos:Concept", "gts:GeochronologicEra" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Makarewan Age"
+    },
+    "broader" : "tsnz:DUrville",
+    "broaderTransitive" : [ "isc:Paleozoic", "isc:Phanerozoic", "isc:Permian" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseMakarewan",
+    "hasEnd" : "tsnz:BaseNelsonian"
+  }, {
+    "@id" : "tsnz:Malakovian",
+    "@type" : [ "gts:GeochronologicEra", "gts:Age", "skos:Concept", "time:ProperInterval" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Malakovian Age"
+    },
+    "broader" : "tsnz:Gore",
+    "broaderTransitive" : [ "isc:Triassic", "isc:Mesozoic", "isc:Phanerozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseMalakovian",
+    "hasEnd" : "tsnz:BaseEtalian"
+  }, {
+    "@id" : "tsnz:Mangaorapan",
+    "@type" : [ "skos:Concept", "gts:GeochronologicEra", "gts:Age", "time:ProperInterval" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Mangaorapan Age"
+    },
+    "broader" : "tsnz:Dannevirke",
+    "broaderTransitive" : [ "isc:Phanerozoic", "isc:Cenozoic", "isc:Paleogene" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseMangaorapan",
+    "hasEnd" : "tsnz:BaseHeretaungan"
+  }, {
+    "@id" : "tsnz:Mangaotanean",
+    "@type" : [ "gts:GeochronologicEra", "gts:Age", "time:ProperInterval", "skos:Concept" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Mangaotanean Age"
+    },
+    "broader" : "tsnz:Raukumara",
+    "broaderTransitive" : [ "isc:Mesozoic", "isc:Phanerozoic", "isc:Cretaceous" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseMangaotanean",
+    "hasEnd" : "tsnz:BaseTeratan"
+  }, {
+    "@id" : "tsnz:Mangapanian",
+    "@type" : [ "time:ProperInterval", "gts:GeochronologicEra", "gts:Age", "skos:Concept" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Mangapanian Age"
+    },
+    "broader" : "tsnz:Wanganui",
+    "broaderTransitive" : [ "isc:Phanerozoic", "isc:Cenozoic", "isc:Neogene" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseMangapanian",
+    "hasEnd" : "tsnz:BaseNukumaruan"
+  }, {
+    "@id" : "tsnz:Mangapirian",
+    "@type" : [ "skos:Concept", "gts:Age", "gts:GeochronologicEra", "time:ProperInterval" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Mangapirian Age"
+    },
+    "broader" : "tsnz:Aparima",
+    "broaderTransitive" : [ "isc:Paleozoic", "isc:Permian", "isc:Phanerozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseMangapirian",
+    "hasEnd" : "tsnz:BaseBarrettian"
+  }, {
+    "@id" : "tsnz:Mata",
+    "@type" : [ "time:ProperInterval", "gts:Epoch", "gts:GeochronologicEra", "skos:Concept" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Mata Epoch"
+    },
+    "broader" : "isc:Cretaceous",
+    "broaderTransitive" : [ "isc:Mesozoic", "isc:Phanerozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseMata",
+    "hasEnd" : "tsnz:BaseDannevirke"
+  }, {
+    "@id" : "tsnz:MiddleCambrian",
+    "@type" : [ "time:ProperInterval", "gts:GeochronologicEra", "skos:Concept", "gts:Epoch" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "MiddleCambrian Epoch"
+    },
+    "broader" : "isc:Cambrian",
+    "broaderTransitive" : [ "isc:Paleozoic", "isc:Phanerozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseMiddleCambrian",
+    "hasEnd" : "tsnz:BaseFurongian"
+  }, {
+    "@id" : "tsnz:MiddleDevonian",
+    "@type" : [ "gts:GeochronologicEra", "time:ProperInterval", "skos:Concept", "gts:Epoch" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "MiddleDevonian Epoch"
+    },
+    "broader" : "isc:Devonian",
+    "broaderTransitive" : [ "isc:Paleozoic", "isc:Phanerozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseMiddleDevonian",
+    "hasEnd" : "tsnz:BaseLateDevonian"
+  }, {
+    "@id" : "tsnz:MiddleOrdovician",
+    "@type" : [ "skos:Concept", "gts:GeochronologicEra", "time:ProperInterval", "gts:Epoch" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "MiddleOrdovician Epoch"
+    },
+    "broader" : "isc:Ordovician",
+    "broaderTransitive" : [ "isc:Paleozoic", "isc:Phanerozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseMiddleOrdovician",
+    "hasEnd" : "tsnz:BaseLateOrdovician"
+  }, {
+    "@id" : "tsnz:Mindyallan",
+    "@type" : [ "gts:GeochronologicEra", "time:ProperInterval", "gts:Age", "skos:Concept" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Mindyallan Age"
+    },
+    "broader" : "tsnz:MiddleCambrian",
+    "broaderTransitive" : [ "isc:Cambrian", "isc:Paleozoic", "isc:Phanerozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseMindyallan",
+    "hasEnd" : "tsnz:BaseIdamean"
+  }, {
+    "@id" : "tsnz:Motuan",
+    "@type" : [ "gts:GeochronologicEra", "time:ProperInterval", "gts:Age", "skos:Concept" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Motuan Age"
+    },
+    "broader" : "tsnz:Clarence",
+    "broaderTransitive" : [ "isc:Cretaceous", "isc:Phanerozoic", "isc:Mesozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseMotuan",
+    "hasEnd" : "tsnz:BaseNgaterian"
+  }, {
+    "@id" : "tsnz:Nelsonian",
+    "@type" : [ "gts:GeochronologicEra", "skos:Concept", "time:ProperInterval", "gts:Age" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Nelsonian Age"
+    },
+    "broader" : "tsnz:Gore",
+    "broaderTransitive" : [ "isc:Triassic", "isc:Mesozoic", "isc:Phanerozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseNelsonian",
+    "hasEnd" : "tsnz:BaseMalakovian"
+  }, {
+    "@id" : "tsnz:Ngaterian",
+    "@type" : [ "gts:GeochronologicEra", "skos:Concept", "gts:Age", "time:ProperInterval" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Ngaterian Age"
+    },
+    "broader" : "tsnz:Clarence",
+    "broaderTransitive" : [ "isc:Phanerozoic", "isc:Mesozoic", "isc:Cretaceous" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseNgaterian",
+    "hasEnd" : "tsnz:BaseArowhanan"
+  }, {
+    "@id" : "tsnz:Nukumaruan",
+    "@type" : [ "gts:Age", "time:ProperInterval", "skos:Concept", "gts:GeochronologicEra" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Nukumaruan Age"
+    },
+    "broader" : "tsnz:Wanganui",
+    "broaderTransitive" : [ "isc:Quaternary", "isc:Cenozoic", "isc:Phanerozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseNukumaruan",
+    "hasEnd" : "tsnz:BaseCastlecliffian"
+  }, {
+    "@id" : "tsnz:Ohauan",
+    "@type" : [ "time:ProperInterval", "skos:Concept", "gts:GeochronologicEra", "gts:Age" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Ohauan Age"
+    },
+    "broader" : "tsnz:Kawhia",
+    "broaderTransitive" : [ "isc:Jurassic", "isc:Mesozoic", "isc:Phanerozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseOhauan",
+    "hasEnd" : "tsnz:BasePuaroan"
+  }, {
+    "@id" : "tsnz:Opoitian",
+    "@type" : [ "gts:GeochronologicEra", "gts:Age", "skos:Concept", "time:ProperInterval" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Opoitian Age"
+    },
+    "broader" : "tsnz:Wanganui",
+    "broaderTransitive" : [ "isc:Neogene", "isc:Phanerozoic", "isc:Cenozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseOpoitian",
+    "hasEnd" : "tsnz:BaseWaipipian"
+  }, {
+    "@id" : "tsnz:Ordian",
+    "@type" : [ "time:ProperInterval", "gts:Age", "gts:GeochronologicEra", "skos:Concept" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Ordian Age"
+    },
+    "broader" : "tsnz:MiddleCambrian",
+    "broaderTransitive" : [ "isc:Paleozoic", "isc:Cambrian", "isc:Phanerozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseOrdian",
+    "hasEnd" : "tsnz:BaseTempletonian"
+  }, {
+    "@id" : "tsnz:Oretian",
+    "@type" : [ "gts:Age", "time:ProperInterval", "skos:Concept", "gts:GeochronologicEra" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Oretian Age"
+    },
+    "broader" : "tsnz:Balfour",
+    "broaderTransitive" : [ "isc:Phanerozoic", "isc:Triassic", "isc:Mesozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseOretian",
+    "hasEnd" : "tsnz:BaseOtamitan"
+  }, {
+    "@id" : "tsnz:Otaian",
+    "@type" : [ "gts:Age", "gts:GeochronologicEra", "skos:Concept", "time:ProperInterval" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Otaian Age"
+    },
+    "broader" : "tsnz:Pareora",
+    "broaderTransitive" : [ "isc:Cenozoic", "isc:Neogene", "isc:Phanerozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseOtaian",
+    "hasEnd" : "tsnz:BaseAltonian"
+  }, {
+    "@id" : "tsnz:Otamitan",
+    "@type" : [ "skos:Concept", "gts:Age", "time:ProperInterval", "gts:GeochronologicEra" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Otamitan Age"
+    },
+    "broader" : "tsnz:Balfour",
+    "broaderTransitive" : [ "isc:Phanerozoic", "isc:Triassic", "isc:Mesozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseOtamitan",
+    "hasEnd" : "tsnz:BaseWarepan"
+  }, {
+    "@id" : "tsnz:Otapirian",
+    "@type" : [ "skos:Concept", "time:ProperInterval", "gts:Age", "gts:GeochronologicEra" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Otapirian Age"
+    },
+    "broader" : "tsnz:Balfour",
+    "broaderTransitive" : [ "isc:Phanerozoic", "isc:Triassic", "isc:Mesozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseOtapirian",
+    "hasEnd" : "tsnz:BaseAratauran"
+  }, {
+    "@id" : "tsnz:Oteke",
+    "@type" : [ "skos:Concept", "time:ProperInterval", "gts:Epoch", "gts:GeochronologicEra" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Oteke Epoch"
+    },
+    "broader" : "isc:Jurassic",
+    "broaderTransitive" : [ "isc:Mesozoic", "isc:Phanerozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseOteke",
+    "hasEnd" : "tsnz:BaseTaitai"
+  }, {
+    "@id" : "tsnz:Pareora",
+    "@type" : [ "gts:Epoch", "skos:Concept", "time:ProperInterval", "gts:GeochronologicEra" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Pareora Epoch"
+    },
+    "broader" : "isc:Neogene",
+    "broaderTransitive" : [ "isc:Cenozoic", "isc:Phanerozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BasePareora",
+    "hasEnd" : "tsnz:BaseSouthland"
+  }, {
+    "@id" : "tsnz:Payntonian",
+    "@type" : [ "gts:GeochronologicEra", "time:ProperInterval", "skos:Concept", "gts:Age" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Payntonian Age"
+    },
+    "broader" : "tsnz:Furongian",
+    "broaderTransitive" : [ "isc:Cambrian", "isc:Paleozoic", "isc:Phanerozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BasePayntonian",
+    "hasEnd" : "tsnz:BaseDatsonian"
+  }, {
+    "@id" : "tsnz:Piripauan",
+    "@type" : [ "gts:GeochronologicEra", "gts:Age", "time:ProperInterval", "skos:Concept" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Piripauan Age"
+    },
+    "broader" : "tsnz:Mata",
+    "broaderTransitive" : [ "isc:Phanerozoic", "isc:Cretaceous", "isc:Mesozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BasePiripauan",
+    "hasEnd" : "tsnz:BaseHaumurian"
+  }, {
+    "@id" : "tsnz:Porangan",
+    "@type" : [ "gts:Age", "skos:Concept", "gts:GeochronologicEra", "time:ProperInterval" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Porangan Age"
+    },
+    "broader" : "tsnz:Dannevirke",
+    "broaderTransitive" : [ "isc:Phanerozoic", "isc:Paleogene", "isc:Cenozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BasePorangan",
+    "hasEnd" : "tsnz:BaseBortonian"
+  }, {
+    "@id" : "tsnz:Pragian",
+    "@type" : [ "time:ProperInterval", "gts:Age", "gts:GeochronologicEra", "skos:Concept" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Pragian Age"
+    },
+    "broader" : "tsnz:EarlyDevonian",
+    "broaderTransitive" : [ "isc:Phanerozoic", "isc:Devonian", "isc:Paleozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BasePragian",
+    "hasEnd" : "tsnz:BaseEmsian"
+  }, {
+    "@id" : "tsnz:Pridoli",
+    "@type" : [ "gts:GeochronologicEra", "time:ProperInterval", "gts:Epoch", "skos:Concept" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Pridoli Epoch"
+    },
+    "broader" : "isc:Silurian",
+    "broaderTransitive" : [ "isc:Phanerozoic", "isc:Paleozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BasePridoli",
+    "hasEnd" : "tsnz:BaseEarlyDevonian"
+  }, {
+    "@id" : "tsnz:Puaroan",
+    "@type" : [ "time:ProperInterval", "skos:Concept", "gts:Age", "gts:GeochronologicEra" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Puaroan Age"
+    },
+    "broader" : "tsnz:Oteke",
+    "broaderTransitive" : [ "isc:Jurassic", "isc:Phanerozoic", "isc:Mesozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BasePuaroan",
+    "hasEnd" : "tsnz:TopPuaroan"
+  }, {
+    "@id" : "tsnz:Puruhauan",
+    "@type" : [ "gts:Age", "gts:GeochronologicEra", "skos:Concept", "time:ProperInterval" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Puruhauan Age"
+    },
+    "broader" : "tsnz:DUrville",
+    "broaderTransitive" : [ "isc:Permian", "isc:Phanerozoic", "isc:Paleozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BasePuruhauan",
+    "hasEnd" : "tsnz:BaseWaiitian"
+  }, {
+    "@id" : "tsnz:Raukumara",
+    "@type" : [ "skos:Concept", "time:ProperInterval", "gts:Epoch", "gts:GeochronologicEra" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Raukumara Epoch"
+    },
+    "broader" : "isc:Cretaceous",
+    "broaderTransitive" : [ "isc:Phanerozoic", "isc:Mesozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseRaukumara",
+    "hasEnd" : "tsnz:BaseMata"
+  }, {
+    "@id" : "tsnz:Rhuddanian",
+    "@type" : [ "gts:GeochronologicEra", "time:ProperInterval", "gts:Age", "skos:Concept" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Rhuddanian Age"
+    },
+    "broader" : "tsnz:Llandovery",
+    "broaderTransitive" : [ "isc:Silurian", "isc:Phanerozoic", "isc:Paleozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseRhuddanian",
+    "hasEnd" : "tsnz:BaseAeronian"
+  }, {
+    "@id" : "tsnz:Runangan",
+    "@type" : [ "gts:GeochronologicEra", "time:ProperInterval", "skos:Concept", "gts:Age" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Runangan Age"
+    },
+    "broader" : "tsnz:Arnold",
+    "broaderTransitive" : [ "isc:Paleogene", "isc:Cenozoic", "isc:Phanerozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseRunangan",
+    "hasEnd" : "tsnz:BaseWhaingaroan"
+  }, {
+    "@id" : "tsnz:Sheinwoodian",
+    "@type" : [ "skos:Concept", "gts:GeochronologicEra", "time:ProperInterval", "gts:Age" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Sheinwoodian Age"
+    },
+    "broader" : "tsnz:Wenlock",
+    "broaderTransitive" : [ "isc:Silurian", "isc:Paleozoic", "isc:Phanerozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseSheinwoodian",
+    "hasEnd" : "tsnz:BaseHomerian"
+  }, {
+    "@id" : "tsnz:Southland",
+    "@type" : [ "gts:Epoch", "skos:Concept", "time:ProperInterval", "gts:GeochronologicEra" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Southland Epoch"
+    },
+    "broader" : "isc:Neogene",
+    "broaderTransitive" : [ "isc:Phanerozoic", "isc:Cenozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseSouthland",
+    "hasEnd" : "tsnz:BaseTaranaki"
+  }, {
+    "@id" : "tsnz:Taitai",
+    "@type" : [ "skos:Concept", "gts:Epoch", "time:ProperInterval", "gts:GeochronologicEra" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Taitai Epoch"
+    },
+    "broader" : "isc:Cretaceous",
+    "broaderTransitive" : [ "isc:Mesozoic", "isc:Phanerozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseTaitai",
+    "hasEnd" : "tsnz:BaseClarence"
+  }, {
+    "@id" : "tsnz:Taranaki",
+    "@type" : [ "gts:Epoch", "skos:Concept", "time:ProperInterval", "gts:GeochronologicEra" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Taranaki Epoch"
+    },
+    "broader" : "isc:Neogene",
+    "broaderTransitive" : [ "isc:Phanerozoic", "isc:Cenozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseTaranaki",
+    "hasEnd" : "tsnz:BaseWanganui"
+  }, {
+    "@id" : "tsnz:Telfordian",
+    "@type" : [ "skos:Concept", "gts:Age", "gts:GeochronologicEra", "time:ProperInterval" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Telfordian Age"
+    },
+    "broader" : "tsnz:Aparima",
+    "broaderTransitive" : [ "isc:Paleozoic", "isc:Permian", "isc:Phanerozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseTelfordian",
+    "hasEnd" : "tsnz:BaseMangapirian"
+  }, {
+    "@id" : "tsnz:Telychian",
+    "@type" : [ "gts:GeochronologicEra", "skos:Concept", "gts:Age", "time:ProperInterval" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Telychian Age"
+    },
+    "broader" : "tsnz:Llandovery",
+    "broaderTransitive" : [ "isc:Paleozoic", "isc:Phanerozoic", "isc:Silurian" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseTelychian",
+    "hasEnd" : "tsnz:BaseSheinwoodian"
+  }, {
+    "@id" : "tsnz:Temaikan",
+    "@type" : [ "gts:GeochronologicEra", "skos:Concept", "gts:Age", "time:ProperInterval" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Temaikan Age"
+    },
+    "broader" : "tsnz:Kawhia",
+    "broaderTransitive" : [ "isc:Mesozoic", "isc:Phanerozoic", "isc:Jurassic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseTemaikan",
+    "hasEnd" : "tsnz:BaseHeterian"
+  }, {
+    "@id" : "tsnz:Templetonian",
+    "@type" : [ "skos:Concept", "time:ProperInterval", "gts:Age", "gts:GeochronologicEra" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Templetonian Age"
+    },
+    "broader" : "tsnz:MiddleCambrian",
+    "broaderTransitive" : [ "isc:Phanerozoic", "isc:Paleozoic", "isc:Cambrian" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseTempletonian",
+    "hasEnd" : "tsnz:BaseFloran"
+  }, {
+    "@id" : "tsnz:Teratan",
+    "@type" : [ "time:ProperInterval", "gts:GeochronologicEra", "gts:Age", "skos:Concept" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Teratan Age"
+    },
+    "broader" : "tsnz:Raukumara",
+    "broaderTransitive" : [ "isc:Cretaceous", "isc:Mesozoic", "isc:Phanerozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseTeratan",
+    "hasEnd" : "tsnz:BasePiripauan"
+  }, {
+    "@id" : "tsnz:Teurian",
+    "@type" : [ "gts:GeochronologicEra", "gts:Age", "time:ProperInterval", "skos:Concept" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Teurian Age"
+    },
+    "broader" : "tsnz:Dannevirke",
+    "broaderTransitive" : [ "isc:Cenozoic", "isc:Paleogene", "isc:Phanerozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseTeurian",
+    "hasEnd" : "tsnz:BaseWaipawan"
+  }, {
+    "@id" : "tsnz:Tongaporutuan",
+    "@type" : [ "skos:Concept", "gts:GeochronologicEra", "time:ProperInterval", "gts:Age" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Tongaporutuan Age"
+    },
+    "broader" : "tsnz:Taranaki",
+    "broaderTransitive" : [ "isc:Neogene", "isc:Cenozoic", "isc:Phanerozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseTongaporutuan",
+    "hasEnd" : "tsnz:BaseKapitean"
+  }, {
+    "@id" : "tsnz:TopFamennian",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Top of Famennian"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Top of Famennian"
+    },
+    "inTemporalPosition" : "tsnz:TopFamennianTime"
+  }, {
+    "@id" : "tsnz:TopFamennianTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "359.2"
+  }, {
+    "@id" : "tsnz:TopHaweran",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Top of Haweran"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Top of Haweran"
+    },
+    "inTemporalPosition" : "tsnz:TopHaweranTime"
+  }, {
+    "@id" : "tsnz:TopHaweranTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "0"
+  }, {
+    "@id" : "tsnz:TopLateDevonian",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Top of LateDevonian"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Top of LateDevonian"
+    },
+    "inTemporalPosition" : "tsnz:TopLateDevonianTime"
+  }, {
+    "@id" : "tsnz:TopLateDevonianTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "359.2"
+  }, {
+    "@id" : "tsnz:TopPuaroan",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Top of Puaroan"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Top of Puaroan"
+    },
+    "inTemporalPosition" : "tsnz:TopPuaroanTime"
+  }, {
+    "@id" : "tsnz:TopPuaroanTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "145.7"
+  }, {
+    "@id" : "tsnz:TopWanganui",
+    "@type" : [ "time:Instant", "skos:Concept", "thors:EraBoundary", "gts:GeochronologicBoundary" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Top of Wanganui"
+    },
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Top of Wanganui"
+    },
+    "inTemporalPosition" : "tsnz:TopWanganuiTime"
+  }, {
+    "@id" : "tsnz:TopWanganuiTime",
+    "@type" : "time:TimePosition",
+    "hasTRS" : "http://resource.geosciml.org/classifier/cgi/geologicage/ma",
+    "numericPosition" : "0"
+  }, {
+    "@id" : "tsnz:Undillian",
+    "@type" : [ "time:ProperInterval", "gts:Age", "gts:GeochronologicEra", "skos:Concept" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Undillian Age"
+    },
+    "broader" : "tsnz:MiddleCambrian",
+    "broaderTransitive" : [ "isc:Cambrian", "isc:Phanerozoic", "isc:Paleozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseUndillian",
+    "hasEnd" : "tsnz:BaseBoomerangian"
+  }, {
+    "@id" : "tsnz:Ururoan",
+    "@type" : [ "skos:Concept", "gts:Age", "gts:GeochronologicEra", "time:ProperInterval" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Ururoan Age"
+    },
+    "broader" : "tsnz:Herangi",
+    "broaderTransitive" : [ "isc:Mesozoic", "isc:Phanerozoic", "isc:Jurassic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseUruroan",
+    "hasEnd" : "tsnz:BaseTemaikan"
+  }, {
+    "@id" : "tsnz:Urutawan",
+    "@type" : [ "gts:Age", "skos:Concept", "time:ProperInterval", "gts:GeochronologicEra" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Urutawan Age"
+    },
+    "broader" : "tsnz:Clarence",
+    "broaderTransitive" : [ "isc:Cretaceous", "isc:Phanerozoic", "isc:Mesozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseUrutawan",
+    "hasEnd" : "tsnz:BaseMotuan"
+  }, {
+    "@id" : "tsnz:Waiauan",
+    "@type" : [ "skos:Concept", "gts:GeochronologicEra", "gts:Age", "time:ProperInterval" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Waiauan Age"
+    },
+    "broader" : "tsnz:Southland",
+    "broaderTransitive" : [ "isc:Neogene", "isc:Cenozoic", "isc:Phanerozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseWaiauan",
+    "hasEnd" : "tsnz:BaseTongaporutuan"
+  }, {
+    "@id" : "tsnz:Waiitian",
+    "@type" : [ "time:ProperInterval", "gts:GeochronologicEra", "skos:Concept", "gts:Age" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Waiitian Age"
+    },
+    "broader" : "tsnz:DUrville",
+    "broaderTransitive" : [ "isc:Paleozoic", "isc:Permian", "isc:Phanerozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseWaiitian",
+    "hasEnd" : "tsnz:BaseMakarewan"
+  }, {
+    "@id" : "tsnz:Waipawan",
+    "@type" : [ "time:ProperInterval", "gts:Age", "skos:Concept", "gts:GeochronologicEra" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Waipawan Age"
+    },
+    "broader" : "tsnz:Dannevirke",
+    "broaderTransitive" : [ "isc:Paleogene", "isc:Phanerozoic", "isc:Cenozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseWaipawan",
+    "hasEnd" : "tsnz:BaseMangaorapan"
+  }, {
+    "@id" : "tsnz:Waipipian",
+    "@type" : [ "skos:Concept", "gts:Age", "time:ProperInterval", "gts:GeochronologicEra" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Waipipian Age"
+    },
+    "broader" : "tsnz:Wanganui",
+    "broaderTransitive" : [ "isc:Phanerozoic", "isc:Neogene", "isc:Cenozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseWaipipian",
+    "hasEnd" : "tsnz:BaseMangapanian"
+  }, {
+    "@id" : "tsnz:Waitakian",
+    "@type" : [ "gts:Age", "gts:GeochronologicEra", "time:ProperInterval", "skos:Concept" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Waitakian Age"
+    },
+    "broader" : "tsnz:Landon",
+    "broaderTransitive" : [ "isc:Phanerozoic", "isc:Paleogene", "isc:Cenozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseWaitakian",
+    "hasEnd" : "tsnz:BaseOtaian"
+  }, {
+    "@id" : "tsnz:Wanganui",
+    "@type" : [ "time:ProperInterval", "gts:Epoch", "skos:Concept", "gts:GeochronologicEra" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Wanganui Epoch"
+    },
+    "broader" : "isc:Quaternary",
+    "broaderTransitive" : [ "isc:Phanerozoic", "isc:Cenozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseWanganui",
+    "hasEnd" : "tsnz:TopWanganui"
+  }, {
+    "@id" : "tsnz:Warendian",
+    "@type" : [ "gts:Age", "skos:Concept", "time:ProperInterval", "gts:GeochronologicEra" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Warendian Age"
+    },
+    "broader" : "tsnz:EarlyOrdovician",
+    "broaderTransitive" : [ "isc:Phanerozoic", "isc:Ordovician", "isc:Paleozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseWarendian",
+    "hasEnd" : "tsnz:BaseLancefieldian"
+  }, {
+    "@id" : "tsnz:Warepan",
+    "@type" : [ "gts:Age", "time:ProperInterval", "skos:Concept", "gts:GeochronologicEra" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Warepan Age"
+    },
+    "broader" : "tsnz:Balfour",
+    "broaderTransitive" : [ "isc:Phanerozoic", "isc:Mesozoic", "isc:Triassic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseWarepan",
+    "hasEnd" : "tsnz:BaseOtapirian"
+  }, {
+    "@id" : "tsnz:Wenlock",
+    "@type" : [ "skos:Concept", "time:ProperInterval", "gts:Epoch", "gts:GeochronologicEra" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Wenlock Epoch"
+    },
+    "broader" : "isc:Silurian",
+    "broaderTransitive" : [ "isc:Paleozoic", "isc:Phanerozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseWenlock",
+    "hasEnd" : "tsnz:BaseLudlow"
+  }, {
+    "@id" : "tsnz:Whaingaroan",
+    "@type" : [ "skos:Concept", "time:ProperInterval", "gts:Age", "gts:GeochronologicEra" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Whaingaroan Age"
+    },
+    "broader" : "tsnz:Landon",
+    "broaderTransitive" : [ "isc:Paleogene", "isc:Phanerozoic", "isc:Cenozoic" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseWhaingaroan",
+    "hasEnd" : "tsnz:BaseDuntroonian"
+  }, {
+    "@id" : "tsnz:Yapeenian",
+    "@type" : [ "skos:Concept", "gts:Age", "gts:GeochronologicEra", "time:ProperInterval" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Yapeenian Age"
+    },
+    "broader" : "tsnz:MiddleOrdovician",
+    "broaderTransitive" : [ "isc:Phanerozoic", "isc:Paleozoic", "isc:Ordovician" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:BaseYapeenian",
+    "hasEnd" : "tsnz:BaseDarriwillian"
+  }, {
+    "@id" : "tsnz:pre-Telfordian",
+    "@type" : [ "gts:Age", "gts:GeochronologicEra", "time:ProperInterval", "skos:Concept" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "pre-Telfordian Age"
+    },
+    "broaderTransitive" : [ "isc:Paleozoic", "isc:Phanerozoic", "isc:Permian" ],
+    "inScheme" : "ts:tsnz2019",
+    "hasBeginning" : "tsnz:Basepre-Telfordian",
+    "hasEnd" : "tsnz:BaseTelfordian"
+  }, {
+    "@id" : "ts:tsnz2019",
+    "@type" : [ "time:TRS", "skos:ConceptScheme", "void:Dataset", "gts:GeologicTimescale", "owl:Ontology" ],
+    "creator" : [ {
+      "@language" : "en",
+      "@value" : "Xiaogang Ma, University of Idaho"
+    }, {
+      "@language" : "en",
+      "@value" : "Chao Ma, University of Idaho"
+    } ],
+    "description" : {
+      "@language" : "en",
+      "@value" : "RDF/OWL representation of the geologic timescale elements in New Zealand."
+    },
+    "rights" : {
+      "@language" : "en",
+      "@value" : "This Ontology is made available under the Open Data Commons Attribution License: http://opendatacommons.org/licenses/by/1.0"
+    },
+    "source" : {
+      "@language" : "en",
+      "@value" : "Concept list from TS Creator - Dr. James Ogg"
+    },
+    "title" : {
+      "@language" : "en",
+      "@value" : "Ontology for Geologic Timescale Elements in New Zealand"
+    },
+    "created" : "2019-11-21",
+    "license" : "https://creativecommons.org/licenses/by/4.0/",
+    "modified" : "2019-11-21",
+    "subject" : "http://dbpedia.org/page/Geologic_time_scale",
+    "preferredNamespacePrefix" : {
+      "@language" : "en",
+      "@value" : "tsnz"
+    },
+    "preferredNamespaceUri" : "http://deeptimekb.org/tsnz#",
+    "feature" : [ "http://www.w3.org/ns/formats/Turtle", "http://www.w3.org/ns/formats/RDF_XML" ],
+    "label" : {
+      "@language" : "en",
+      "@value" : "Ontology for Geologic Timescale Elements in New Zealand"
+    }
+  } ],
+  "@id" : "urn:x-arq:DefaultGraphNode",
+  "@context" : {
+    "inTemporalPosition" : {
+      "@id" : "http://www.w3.org/2006/time#inTemporalPosition",
+      "@type" : "@id"
+    },
+    "prefLabel" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+    "label" : "http://www.w3.org/2000/01/rdf-schema#label",
+    "inScheme" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#inScheme",
+      "@type" : "@id"
+    },
+    "broader" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#broader",
+      "@type" : "@id"
+    },
+    "hasEnd" : {
+      "@id" : "http://www.w3.org/2006/time#hasEnd",
+      "@type" : "@id"
+    },
+    "broaderTransitive" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+      "@type" : "@id"
+    },
+    "hasBeginning" : {
+      "@id" : "http://www.w3.org/2006/time#hasBeginning",
+      "@type" : "@id"
+    },
+    "numericPosition" : {
+      "@id" : "http://www.w3.org/2006/time#numericPosition",
+      "@type" : "http://www.w3.org/2001/XMLSchema#decimal"
+    },
+    "hasTRS" : {
+      "@id" : "http://www.w3.org/2006/time#hasTRS",
+      "@type" : "@id"
+    },
+    "source" : "http://purl.org/dc/elements/1.1/source",
+    "created" : {
+      "@id" : "http://purl.org/dc/terms/created",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "preferredNamespacePrefix" : "http://purl.org/vocab/vann/preferredNamespacePrefix",
+    "preferredNamespaceUri" : {
+      "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri",
+      "@type" : "@id"
+    },
+    "subject" : {
+      "@id" : "http://purl.org/dc/terms/subject",
+      "@type" : "@id"
+    },
+    "feature" : {
+      "@id" : "http://rdfs.org/ns/void#feature",
+      "@type" : "@id"
+    },
+    "title" : "http://purl.org/dc/elements/1.1/title",
+    "creator" : "http://purl.org/dc/elements/1.1/creator",
+    "rights" : "http://purl.org/dc/elements/1.1/rights",
+    "modified" : {
+      "@id" : "http://purl.org/dc/terms/modified",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "description" : "http://purl.org/dc/elements/1.1/description",
+    "license" : {
+      "@id" : "http://purl.org/dc/terms/license",
+      "@type" : "@id"
+    },
+    "void" : "http://rdfs.org/ns/void#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "gts" : "http://resource.geosciml.org/ontology/timescale/gts#",
+    "samfl" : "http://def.seegrid.csiro.au/ontology/om/sam-lite#",
+    "xsd" : "http://www.w3.org/2001/XMLSchema#",
+    "skos" : "http://www.w3.org/2004/02/skos/core#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "thors" : "http://resource.geosciml.org/ontology/timescale/thors#",
+    "xkos" : "http://rdf-vocabulary.ddialliance.org/xkos#",
+    "geo" : "http://www.opengis.net/ont/geosparql#",
+    "sf" : "http://www.opengis.net/ont/sf#",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "isc" : "http://resource.geosciml.org/classifier/ics/ischart/",
+    "dcterms" : "http://purl.org/dc/terms/",
+    "rank" : "http://resource.geosciml.org/ontology/timescale/rank/",
+    "time" : "http://www.w3.org/2006/time#",
+    "vann" : "http://purl.org/vocab/vann/",
+    "tsnz" : "http://deeptimekb.org/tsnz#",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/",
+    "sosa" : "http://www.w3.org/ns/sosa/",
+    "ts" : "http://resource.geosciml.org/vocabulary/timescale/"
+  }
+}
