@@ -1,0 +1,68 @@
+ table {
+        font-size: 30px;
+        border: 1px solid white;
+        background-color: white;
+        width: 600px;
+        height: 100px;
+        border-radius: 25px;
+        top:    150px;
+        left:  50px;
+        border-style: groove;
+        z-index: 2;
+      } 
+
+      th, td {
+        font-size: 30px;
+        border: 1px solid white;
+        background-color: white;
+        /*border-radius: 25px;*/
+        top:    150px;
+        left:  50px;
+        border-style: groove;
+        z-index: 2;
+        /*border-width: 20px;*/
+
+    }
+
+    #dbinfo {
+        border-style: groove;
+        position: absolute;
+        overflow: scroll;
+        background-color: #b3ffff;
+        width: 550px;
+        height: 280px;
+        right: 0;
+        bottom: 0;
+        /*border: 15px solid yellow;*/
+        padding: 10px;
+        margin: 20px;
+        background-image: url('/../images/infoBG.jpg');
+        text-decoration-color: white;
+        border-radius: 25px;
+    }
+
+
+    h1 {
+        border-radius: 25px;
+        background-color: #80bfff;
+        background-size: 100;
+        position: absolute;
+        left: 1020px;
+        top: 350px;
+    
+    }
+
+    body {
+        background-image: url('/../images/earth.jpeg');
+        /*background-color: rgba(255,255,255,0.6);
+        background-blend-mode: lighten;
+*/    }
+
+    @font-face {
+        font-family: myFirstFont;
+        src: url('/../fonts/font.ttf');
+    }
+
+    h1 {
+        font-family: myFirstFont;
+    }

@@ -1,54 +1,31 @@
 <!DOCTYPE html>
 <html>
+
+
 <head>
     <meta charset="utf-8"/>
     <meta http-equiv="Content-Language" content="en" />
     <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, width=device-width">
     <title>Geologic Time</title>
 
-    <link rel="stylesheet" href="timescale.css" />
-
-    <style>
-      table, th, td {
-        border: 1px solid black;
-    }
-
-    #dbinfo {
-        position: fixed;
-        overflow: scroll;
-        background-color: #ffffb3;
-        width: 450px;
-        right: 0;
-        bottom: 0;
-        height: 300px;
-        border: 15px solid coral;
-        padding: 10px;
-        margin: 20px;
-    }
-
-    h1 {
-        position: absolute;
-        left: 1000px;
-        top: 250px;
-        overflow: visible;
-    }
-
-</style>
+    <link rel="stylesheet" href="css_files/timescale.css" />
+    <link rel="stylesheet" href="css_files/index.css" />
 
 </head>
+
+
 <body>
     <!-- <div id="element">Click Me</div> -->
     <div id="geoTime"></div>
 
     <table id="results" style="position: relative; bottom:0; right:0;"></table> 
 
-    <h1> Query Information </br></h1>
+    <h1> Query Information </h1>
 
 
-        <p id="dbinfo"> 
-            <!-- <strong>Query Information</strong> -->
-         </p>
-
+    <p id="dbinfo" style="color: white"> 
+        <!-- <strong>Query Information</strong> -->
+     </p>
 
     <script 
         type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.js"></script>
@@ -64,6 +41,8 @@
 
     </script>
 
-
 </body>
+
+
+
 </html>
