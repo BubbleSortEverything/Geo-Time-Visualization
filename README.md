@@ -1,6 +1,5 @@
 # Geo Time Visualization
-
-# VERSION: 1.0.0
+	VERSION: 1.0.0
 # Using Node.js and d3.js
 
 
